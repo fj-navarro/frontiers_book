@@ -5,10 +5,12 @@ book:
   title: "Managing the Smart Revolution in Tourism Firms"
   author: "Francisco J Navarro-Meneses"
   date: "29/3/2023"
-  chapters:
-    - index.qmd
+  index.qmd
+  - part: intro.qmd
+    chapters:
     - call_to_action.qmd
     - intro.qmd
+    chapters:
     - summary.qmd
     - references.qmd
 
