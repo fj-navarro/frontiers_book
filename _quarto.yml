@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "frontiers_book"
-  author: "Norah Jones"
+  title: "Managing the Smart Revolution in Tourism Firms"
+  author: "Francisco J Navarro-Meneses"
   date: "29/3/2023"
   chapters:
     - index.qmd
