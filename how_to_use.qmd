@@ -1,0 +1,14 @@
+---
+title: "How to Use This Book"
+---
+
+The book is structured in four major parts:
+
+1.  Introduction to Smart firms
+2.  Smart Technologies
+3.  Management Practices
+4.  What's Next.
+
+Part 1 includes four chapters that introduce the key ideas and concepts that are shaping business transformation and smartization in organizations around the world, and especially in tourism firms. Part 2 focuses on understanding the technologies that are the basis of the Smart Revolution, not from a deep technical or functional perspective, but from the positive (and negative) impacts that their implementation is starting to have, and the transformation needs for the tourism firm. Part 3 contains six chapters that examine some of the main management practices that tourism organizations should consider implementing in order to make a successful transition from conventional to smart firm. Finally, Part 4 aims to guide business leaders in the first steps of the smart business transformation process, as well as to suggest some of the trends that will continue to disrupt tourism firms in the future.
+
+Each of the 23 chapters of the book is self-contained and can be studied on its own. However, the author recommends that the reader make a first complete reading of the book from beginning to end and follow the established order of the parts and chapters. In this way, the reader will better comprehend the key concepts covered in the book, the relationships between them, and the consequences for the smart management of the tourism firm. After a first reading of the book, readers will realize the true dimension of the Smart Revolution and will feel more comfortable to later delve into specific chapters to review or search for ideas, learn more through the references provided or use the discussion questions at the end of the chapters to stimulate debate and reflection.

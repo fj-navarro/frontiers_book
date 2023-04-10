@@ -5,13 +5,41 @@ book:
   title: "Managing the Smart Revolution in Tourism Firms"
   author: "Francisco J Navarro-Meneses"
   date: "29/3/2023"
-  index.qmd
-  - part: intro.qmd
-    chapters:
-    - call_to_action.qmd
-    - intro.qmd
-    chapters:
-    - summary.qmd
+  chapters:
+    - index.qmd
+    - part: intro.qmd
+      chapters:
+        - call_to_action.qmd
+        - need_for_book.qmd
+        - who_should_read.qmd
+        - how_to_use.qmd
+    - part: intro_smart_firms.qmd
+      chapters:
+        - fundamentals.qmd
+        - smartization.qmd
+        - digitalization.qmd
+        - data_driven.qmd
+    - part: smart_technologies.qmd
+      chapters: 
+        - understanding.qmd
+        - big_data.qmd
+        - data_analytics.qmd
+        - ai.qmd
+        - iot.qmd
+        - cybersecurity.qmd
+        - enabling.qmd
+    - part: practices.qmd
+      chapters: 
+        - management.qmd
+        - transformative.qmd
+        - agility.qmd
+        - data_driven_agility.qmd
+        - leadership.qmd
+        - open_innovation.qmd
+    - part: whats_next.qmd
+      chapters:
+        - framework.qmd
+        - future.qmd
     - references.qmd
 
 bibliography: references.bib
