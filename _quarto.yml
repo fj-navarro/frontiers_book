@@ -15,8 +15,8 @@ book:
         - how_to_use.qmd
     - part: intro_smart_firms.qmd
       chapters:
-        - fundamentals.qmd
-        - smartization.qmd
+        - 5_fundamentals.qmd
+        - 6_smartization.qmd
         - digitalization.qmd
         - data_driven.qmd
     - part: smart_technologies.qmd

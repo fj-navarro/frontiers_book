@@ -24,8 +24,7 @@ The accelerated adoption of digital and online media by consumers meant that tou
 
 Challenged by this avalanche of sweeping changes in the way tourism firms are required to operate, many firms have simply been unable to keep up with the pace of change and have been left out of the market. This would explain the renewal that the tourism ecosystem has experienced in recent years at the business level. Figure 5.1 illustrates the evolution described, from traditional tour operators with a low level of digitalization to the present day, characterized by the digital transformation of operators and the growing but unstoppable integration of smart technologies in tourism firms.
 
-![Fig. 5.1. The roadmap towards smart tourism. Source: own elaboration based on
-Dredge et al. (2019)](/img/fig1.png) 
+![Fig. 5.1. The roadmap towards smart tourism. Source: own elaboration based on Dredge et al. (2019)](/img/fig1.png)
 
 ### Phase 1: Traditional tourism
 
