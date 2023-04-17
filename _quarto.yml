@@ -2,9 +2,10 @@ project:
   type: book
 
 book:
-  title: "Managing the Smart Revolution in Tourism Firms"
+  title: "Managing the Smart Revolution in Tourism Firms (2 ed)"
+  subtitle: "Innovation and Value Creation in the Era of Data"
   author: "Francisco J Navarro-Meneses"
-  date: "29/3/2023"
+  date: "17/4/2023"
   chapters:
     - index.qmd
     - preface.qmd
