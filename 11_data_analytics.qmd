@@ -50,6 +50,32 @@ To address these challenges, many organizations implement data lake solutions. T
 
 Data lakes are different from data warehouses (Table 11.1). These are meant to consolidate data from many different sources and create a single version of the truth. A data warehouse is a highly structured system with a data model that must be carefully designed before loading the data, because if you want to change it later, it is complicated and time consuming. A data warehouse typically works in batches and is ready to support thousands of simultaneous accesses from users who create reports or perform analysis.
 
++------------------+------------------------------------+---------------------------------------+
+| Characteristic   | Data warehouse                     | Date lake                             |
++==================+====================================+=======================================+
+| Data             | | Relational from transactional    | | Non-relational from websites,       |
+|                  | | systems, operational databases,  | | mobile apps, social media, IoT      |
+|                  | | and business applications        | | devices, and corporate apps         |
++------------------+------------------------------------+---------------------------------------+
+| Schema           | | Designed in advance of data      | | Written at the time of analysis     |
+|                  | | storage ("schema on write")      | | ("schema on read")                  |
++------------------+------------------------------------+---------------------------------------+
+| Performance/cost | | Faster query results with higher | | Faster query results with low       |
+|                  | | storage cost                     | | storage costs                       |
++------------------+------------------------------------+---------------------------------------+
+| Data quality     | | Curated data                     | | Data that may or may not be         |
+|                  |                                    | | curated (raw data)                  |
++------------------+------------------------------------+---------------------------------------+
+| Users            | | Business analysts                | | Business analysts, data scientists, |
+|                  |                                    | | data developers                     |
++------------------+------------------------------------+---------------------------------------+
+| Analytics        | | Batch reporting, business        | | Machine learning, predictive        |
+|                  | | intelligence, and visualizations | | analysis, data discovery, and       |
+|                  |                                    | | profiling                           |
++------------------+------------------------------------+---------------------------------------+
+
+: Table 11.1. Differences between data lakes and data warehouses. Source: adapted from AWS (2022)
+
 On the other hand, data lakes are centralized repositories that can store structured and unstructured data at any scale in raw format, without the need to transform the data beforehand. They are closely related to the Apache Hadoop ecosystem of open source solutions, which is a popular framework because it provides a cost-effective and technologically sound way to meet the challenges of Big Data analytics in business firms. Data lakes support different types of analytics, from simple dashboards and visualizations to Big Data processing and machine learning at a lower cost. However, data lakes also have some drawbacks. One of the most important is its inability to determine the quality of the data, and the risks associated with data security and access control, as data is often loaded into the data lake without content monitoring. In terms of performance, data lakes and data warehouses offer similar metrics.
 
 As we can see, the data lake and the data warehouse serve different needs and use cases, so the tourism firm may need both types of storage solutions as it moves through its smart transformation journey. That said, can the data warehouse and data lake work together? Yes, they can. This can be achieved by converting the firm's data storage system into a hybrid framework consisting of a data warehouse and a data lake. This way the firm extends the capabilities of the data warehouse by allowing data from the data lake to feed the queries that users perform against the data warehouse. With such an architecture, data sourcing and analytics become transparent to end users, as the data system itself determines which data is used to answer each query.
@@ -103,6 +129,28 @@ Last but not least, modern data analytics techniques require knowledge of some c
 A particularly relevant set of methods and algorithms that is often confused with data mining is machine learning. This is actually not that surprising, because both data mining and machine learning use algorithms to discover patterns in data, analyze correlations, and extract insights from unstructured data. However, although there are many people who assimilate them, the outcomes they provide are different.
 
 While data mining aims to extract patterns from large amounts of data, machine learning is an artificial intelligence that allows a system to learn from data rather than through programming. In other words, data mining relies on human intervention and determines an outcome based on the collected data, whereas machine learning trains an algorithm to perform complex tasks without relying on human intervention, so that as it ingests more training data it can learn and generate more accurate models based on that data. After training, when the model is fed an input, the machine learning algorithm will output a forecast based on the data used to train the model. Table 11.2 shows a summary of some of the most common predictive algorithms used in data analytics.
+
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Algorithm                      | Rationales                                                                                                                                               |
++================================+==========================================================================================================================================================+
+| Linear regression              | | Supervised learning technique that helps model linear relationships between a dependent variable and one or more independent variables                 |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| k-nearest neighbors regression | | Supervised learning technique that searches the observations                                                                                           |
+|                                | | closest to the one to be predicted and estimates the output value                                                                                      |
+|                                | | as an average of the most similar data points                                                                                                          |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Logistic regression            | | Method that estimates the probability of a binary qualitative variable as a function of one or more quantitative independent variables (or predictors) |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Bayesian networks              | | Probabilistic graphical model that allows the representation of the                                                                                    |
+|                                | | dependency relationships between a set of variables                                                                                                    |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Decision trees                 | | Predictive model of decisions and their possible consequences in                                                                                       |
+|                                | | the form of a tree                                                                                                                                     |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Artificial neural networks     | | Predictive model in the form of a graph of nodes that emulates the behavior of neurons in the brain                                                    |
++--------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Table 11.2. Most common predictive algorithms. Source: own elaboration
 
 Machine learning techniques are essentially used to make predictions in supervised, unsupervised, and reinforcement learning environments (Noor & Haneef, 2020). Supervised learning is performed on training data; i.e., the machine uses some input data that has been previously labeled or classified for learning. Labeled data contains associated information in the form of a label, tag, or class, which gives them a significant meaning. For example, an image of a woman with a tag that identifies it as an "image of a woman".
 
