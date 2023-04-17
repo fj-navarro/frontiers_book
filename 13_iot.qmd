@@ -8,6 +8,8 @@ The key idea behind the IoT is to interconnect physical "things" through digital
 
 IoT ecosystems are going to be central to Big Data collection. In fact, it is expected that the main source of Big Data in the coming years will be IoT systems, followed by data from humans and robots and AI applications (Kaivo-Oja et al., 2015). Through the IoT, firms will be able to track, communicate with "things", and monitor them to exploit their status. But even more important is that due to the programmability of "things" it will be possible for firms to add new instructions and modify their behavior throughout the life cycle of things (Fig. 13.1). Ultimately, this ability for everyday "things" to think and interact will be the driver of the IoT, unleashing limitless opportunities for tourism firms, most positive and some negative. Therefore, the IoT represents a new paradigm that has the potential to revolutionize the way we live and work thanks to the vast amount of data and services that flow from the interactions between a large number of heterogeneous connected devices (Palattella et al., 2016).
 
+![Fig. 13.1. IoT operations framework. Source: own elaboration based on Kaivo-Oja et al. (2015)](/img/fig16.png){width="600"}
+
 ## Concept of IoT
 
 One of the first to use the term IoT was MIT technologist Kevin Ashton, who explained how the IoT could be created by adding radio frequency identification and other sensors to everyday objects (Ashton, 2009). Over time, the term IoT has evolved to refer to a "network of entities that are connected through any form of sensor, enabling these entities, which we term as internet-connected constituents, to be located, identified, and even operated upon" (Ng & Wakenshaw, 2017). Today, the IoT is considered one of the technologies that is going to lead the way to the Fourth Industrial Revolution and that interconnected physical devices will automate skills and tasks, significantly impacting the way consumers, businesses, and governments interact (Shim et al., 2019).
@@ -23,6 +25,8 @@ For many specialists, the IoT represents the next step in the computer revolutio
 ### IoT vs IoE
 
 The IoT is built on the data created by things. This is a significant difference from how the internet has developed up to now, mainly based on data created by people. Building on this idea, some big companies in the technology industry (including CISCO and Qualcomm) have adapted their view of the IoT and used the term "Internet of Everything" (loE) instead. Unlike the IoT, which is made up of "things", the IoE encompasses four pillars: people, data, processes, and things (Fig. 13.2). In the IoE, devices are permanently connected to the internet, including machine-to-machine (M2M), person-to-machine (P2M), and person-to-person (P2P) systems. This makes it possible for business and industrial processes to be put at the service of improving people's lives.
+
+![Fig. 13.2. Internet of Everything. Source: own elaboration based on Miraz et al. (2015)](/img/fig17.png){width="600"}
 
 For IoE advocates, the big issue is not so much "things", but the connections between things, people, processes, and data, which is what really creates value. They believe that the growth of many organizations in the Internet Age occurs in waves that are "S" shaped, such that with each successive wave new features and greater network connectivity are added, eventually leading to qualitative and quantitative leaps in the number and variety of opportunities (and of risks) and firms reaching the IoE.
 
@@ -52,6 +56,8 @@ As the IoT is a very broad concept and its components are so varied and heteroge
 
 -   **Application layer** is an interface between the end user and the general IoT architecture that builds on top of the three lower layers to provide end-user IoT applications in various domains. These applications can be as simple as turning off an electrical switch or as complex as monitoring critical infrastructure.
 
+![Fig. 13.3. Four-layer IoT architecture. Source: own elaboration based on Ma et al. (2013) and Fleisch (2015)](/img/fig18.png){width="600"}
+
 One thing to keep in mind is that IoT layers cannot be created or function independently of one another. Therefore, an IoT solution is not the mere addition of layers, but an integration process that extends to the physical level, and where the whole is greater than the sum of its parts. Furthermore, a well-structured IoT architecture is the foundation that will help firms create innovative services. For this, it is important that the IoT architecture is designed considering the existing technological infrastructure, its scalability, as well as low energy consumption and cost-effective start-up, maintenance, and updating (Ghule & Sakhare, 2017).
 
 Most IoT platforms are designed to support a wide variety of applications and services, but they are different in performance, security, customization, ease of use, and management (Lee, 2019). This is why choosing an IoT platform is not easy and tourism firms need to consider things like scaling and cloud access options, disaster prevention and recovery plans, security and data backup measures, communication protocols and standards, and the type of technical support offered. In addition, firms must decide whether to implement private IoT infrastructure, third-party IoT infrastructure, or a hybrid (private and third-party) IoT. Furthermore, owners and managers will need to assess and decide on the IoT infrastructure (i.e., total cost of the infrastructure related to hardware, software, labor, and maintenance), and on the main qualitative elements, such as the intangible benefits and risks, the level of customization required, and the organizational skills required.
@@ -69,6 +75,8 @@ Data management in the IoT involves data collection, processing, storage, and an
 -   **Implicit semantics:** IoT data is data extracted from digital representations of objects with weak and low-level semantics, since it has little or nothing to do with human perception. For firms to build applications up to the level of smart services, data semantics must be abstracted from the mass of low-level data using an event-driven perspective.
 
 In accordance with the characteristics described above, the use of IoT data requires some key processes to be carried out as shown in Fig. 13.4 (Ma et al., 2013).
+
+![Fig. 13.4. IoT data processes. Source: own elaboration based on Ma et al. (2013)](/img/fig19.png)
 
 -   **Data cleansing:** It focuses on overcoming the lack of reliability that plagues IoT data, which is often incomplete, erroneous, and duplicate. Data cleansing is an essential step for the correct analysis and interpretation of IoT data. Cleansing data is a real challenge for most organizations given the enormous volume of data generated in IoT, the variety of sources and errors that exist, and the need to process it in real time. Once the IoT data is clean, it can be put to use.
 
@@ -111,6 +119,8 @@ Additionally, the intellectual capital of firms in the form of knowledge, inform
 IoT technologies offer the potential to change the tourism marketplace by helping firms develop compelling business strategies. At the organization level, the value created by IoT systems and applications is critical to their adoption and the opportunity to create a new connected world with great potential for firms, consumers, and governments. But new problems and challenges inevitably arise.
 
 One is that IoT technologies have different and often competing standards, which leads to a fragmented market for IoT products and services. The need for a market standard is key because it would lead to network effects (i.e., increasing value to users as more members join), but also because end users, be they home consumers or firms, will continue to be reluctant to invest in systems that they fear will be compromised, become obsolete, or simply are not able to communicate with other IoT devices. It is expected that this trend will normalize in the medium term and that some of these standards (and industry players) will prevail over the rest and begin to dominate the IoT market. Next in this section, the technologies that are playing a more relevant role in the development of the IoT are described (Fig. 13.5).
+
+![Fig. 13.5. IoT technologies. Source: own elaboration based on De Saulles (2016)](/img/fig20.png){width="600"}
 
 ### IoT hardware
 

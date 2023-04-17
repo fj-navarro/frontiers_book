@@ -18,6 +18,9 @@ Many times what really fails in tourism firms is that owners and managers think 
 
 Cyber-attackers employ a wide range of attack techniques to circumvent the cybersecurity measures put in place by firms to protect their systems and data. Most attacks involve high-level technical skills in programming to detect network and organizational security vulnerabilities and inflict damage on organizations, or earn money for data theft or to recover and return to normal (Fig. 14.1). Next, in this section, some of the most frequent types of cyberattacks that occur in tourism firms are examined (Paraskevas, 2020).
 
+![Fig. 14.1. Main types of cyber threats. Source: own elaboration based on Maalem Lahcen
+et al. (2020)](/img/fig21.png){width=600}
+
 ### Malware attacks
 
 This is perhaps the most common type of attack and involves compromising an organization's sensitive data and systems by infecting them with malware such as viruses, worms, Trojan horses, keyloggers, and other spyware. There are literally thousands of different malware variants that, once they infiltrate systems and hardware, spread to other systems leaving a trail of disruption and destruction. These attacks typically use a command and control server that allows cyber-attackers to communicate with infected systems, leak sensitive data, and even remotely control the targeted device or server. In the case of tourism firms, one of the most typical types of malware is the Carbanak/Anunak attack.
@@ -92,6 +95,9 @@ Stories of cyber-attacks have become routine, with cyber-attackers showing incre
 
 A cybersecurity strategy must provide the best possible protection for the key assets and operations of the firm. In this vein, organization must understand which IT systems are mission critical for its operations, as well as being clear about which information assets are the most valuable to cyber-attackers in order to apply enhanced protection to them. In addition, the firm must know where are and who has access to critical assets, and know how these assets are related to each other and what vulnerabilities (organizational and technological) can expose them to cyber-attackers. This process is known as OCTAVE (Operationally Critical Threat, Asset, and Vulnerability Evaluation) and is a methodology for evaluating information security risks that allows establishing a set of risk profiles for critical information assets and systems (Fig. 14.2). These profiles will allow business owners and managers to make informed decisions about the allocation of resources that strengthen the organization's cyber defenses and implement an adequate cybersecurity strategy for the firm (Caralli et al., 2007).
 
+![Fig. 14.2. The phases of OCTAVE methodology. Source: own elaboration based on
+Alberts et al. (2003)](/img/fig22.png){width=600}
+
 ### Risk management frameworks
 
 Tourism firms must properly manage risks if they want to succeed in cybersecurity, so choosing a risk management framework from the many available on the market is an essential task. One of the most popular cybersecurity frameworks is the US National Institute of Standards and Technology (NIST) Cybersecurity Framework. This is a high-level, easy-to-read set of guidelines for mitigating organizational cybersecurity risks, which organizations can customize to suit their needs. The framework consists of a core divided into five functions (identify, protect, detect, respond, and recover) further subdivided into 23 categories. For each category, a series of subcategories of cybersecurity results and security controls are defined, with 108 subcategories in total.
@@ -121,6 +127,9 @@ There are currently three open lines of work focused on achieving a security sta
 ### Hackers' behavior
 
 Since most cyberattacks are human-caused, it's important for cybersecurity managers at firms to understand who these criminals are, why they do what they do, what they're after, and how they operate. Knowing the behavioral aspects surrounding cyber-attackers is very useful to better understand the challenge facing the organization and try to align the behavioral aspects with the technical aspects of cybersecurity. For an organization to understand what its cyber risk landscape looks like, it suffices to consider that cyberattacks are broadly classified into three main categories: war, activism, and crime. In other words, hackers have geopolitical, ideological, and financial motivations, and can be sponsored by states, be activists, or be criminals (Paraskevas, 2020). Figure 14.3 shows the cyber-risk landscape, that is, the connection between the types of hackers, the threats that occur, and the type of impact they can have on businesses.
+
+![Fig. 14.3. The cyber-risk landscape. Source: own elaboration based on Paraskevas
+(2020)](/img/fig23.png)
 
 There is no IT system that is 100% secure, but it is also not possible to maximize security without considering the human factor. In general, cyberattackers will attempt to penetrate all levels of the organization's defense system after having gained access to the first level. Consider that it takes most hackers an average of 15 hours to gain access to an organization's system and map and detect its most valuable data to compromise it (Pogue, 2018). There is no doubt that cybercriminals have an advantage over defenders, which is why defenders are obliged to analyze security at all levels using tools that allow them to discover vulnerabilities before attackers do. Here the famous slogan "Trust, but Verify" (which became internationally famous when it was used by US President Ronald Reagan in the context of negotiations on nuclear disarmament with the Soviet Union) is perfectly valid, which means that even if the firm achieves a certain level of trust in some domains of the organization, it will always be necessary to carry out continuous verification.
 

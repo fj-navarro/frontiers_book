@@ -18,6 +18,8 @@ An STF is a structured model made up of management dimensions, areas of action, 
 
 Based on the review of the literature carried out by several authors (Bumann & Peter, 2019; Teichert, 2019), six key dimensions or core action areas of an STF can be identified: strategy, organization, culture, technology, customers, and people (Fig. 22.1).
 
+![Fig. 22.1. Smart transformation drivers. Source: own elaboration](/img/fig35.png){width=600}
+
 ### Strategy
 
 Formulating a smart transformation strategy is key for the tourism firm to achieve a successful transformation. However, experience shows that there is no consensus among academics, firms, vendors, and consultants on what is the best way to articulate this type of strategy or what relevance it should have for the organization. Opinions are varied and divided in this respect, between those who consider that the transformation strategy is just another IT strategy that must be subject to (and aligned with) the general business strategy of the firm; those who consider that transformation requires a strategy that merges the IT strategy and the business strategy; and there are still those who argue that smart transformation is so important that it requires a specific top-level strategy separate from other functional strategies of the firm and that coordinates the drivers of smart transformation.
@@ -57,6 +59,8 @@ In addition to the many technological resources that are necessary to achieve a 
 ## Getting Started with Smart Transformation
 
 Smart transformation can be approached through the sequence of phases contained in the STF (Fig. 22.2), each of which contains a set of key tasks to advance the change process. These phases are usually independent of the industry (although some industries may develop its own STF) and the size of the organization, and encompass generic topics that are applicable to most organizations. Using an STF helps organization members lay the groundwork for how they can work on smart transformation, as well as create an Agile way of thinking and acting. The STF also helps stakeholders better align and engage in the key activities of each phase. Figure 22.2 shows the five phases that can guide a tourism firm to start the smart transformation process. Once these five phases are completed, the firm must begin the implementation of the actions that have resulted from the STF.
+
+![Fig. 22.2. Phases of the Smart Transformation Framework. Source: own elaboration](/img/fig36.png)
 
 ## Understand the problem
 

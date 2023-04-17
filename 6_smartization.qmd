@@ -56,7 +56,7 @@ Digital transformation emphasizes aspects related to cultural change, the way in
 
 Meanwhile, both digitalization and digital transformation make use of digitization and digital innovation with the intention of improving the firm's products and services (Yoo et al., 2012). This means that, for many authors (including consultants and ICT of digital transformation). Figure 6.1 describes this conceptual journey from digitization to smart transformation.
 
-![Fig.6.1. The journey from digitization to smart transformation. Source: own elaboration](/img/fig2.png)
+![Fig. 6.1. The journey from digitization to smart transformation. Source: own elaboration](/img/fig2.png)
 
 ## Components of Digital Transformation
 
@@ -71,6 +71,8 @@ Digital transformation is essentially made effective through the following four 
 -   **Access to the digital consumer:** The use of the internet to provide direct access to digital consumers, substantially increasing the transparency of markets and choice options.
 
 Within the framework of digital transformation, digital technologies are key drivers that provide the firm with greater interactivity and the possibility for stakeholders to participate in the creation of new value for the business, in the design of products/services, in the generation and exchange of knowledge, and even in the contribution of new experiences. This requires firms to thoroughly review their business management practices, increasingly determined by the ability to act in the new value networks that emerge from their integration into ecosystems capable of self-learning and self-organization.
+
+![Fig.6.2. Framework of digital transformation. Source: Own elaboration based on Roland Berger (2015)](/img/fig3.png)
 
 ## Benefits of Digital Transformation
 

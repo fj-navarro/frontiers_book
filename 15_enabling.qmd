@@ -226,6 +226,8 @@ Blockchain technology has six main characteristics that make it suitable for a n
 
 Blockchain applications can change the way tourism firms interact with customers in a secure environment and validate the content they generate about their products and services (i.e., fake reviews on social media). Token-based loyalty programs can change the experience offered to customers of a hotel or a destination and make it much easier to manage these types of programs. Digital payments with customers (B2C) and with suppliers (B2B) can be greatly facilitated through cryptocurrencies, and when combined with smart contracts, operations can be made more agile and secure, which generates more trust between the participating parties (Antoniadis et al., 2020). Figure 15.1 shows some of the main applications that blockchain can have in tourism.
 
+![Fig. 15.1. Main applications of blockchain in tourism. Source: own elaboration based on Antoniadis et al. (2020)](/img/fig24.png)
+
 #### Cryptocurrencies
 
 The growth of blockchain technologies and the emergence of new applications are largely due to the success of the Bitcoin cryptocurrency. Bitcoin was one of the first applications of DLT technology to emerge as a peer-to-peer cryptographic payment system in response to a lack of trust in global finance created after the 2008 financial crisis. In the Bitcoin ecosystem, any digital interaction can be tracked through a transparent and secure structure that is also resistant to both external and internal hacking attacks. Although there are many different types of cryptocurrencies today, the most important in terms of transaction volume and recognition are the following (Çapar, 2020):

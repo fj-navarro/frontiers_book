@@ -26,6 +26,8 @@ The integration of data analytics and Big Data management provides the processes
 
 A smart data analytics toolbox should be filled with cloud analytics tools, which allow organizations to consolidate data from different areas and departments (e.g., sales, marketing, human resources, finance) and thus obtain a unified view of the firm's key figures. Taken together, the visualization, prediction, and scenario modeling tools provide all sorts of unique insights across the organization.
 
+![Fig. 11.1. The data analytics workflow. Source: own elaboration](/img/fig14.png)
+
 ## Methods and Technologies
 
 A robust technological architecture that supports data analytics in the tourism firms should include several levels:
@@ -83,6 +85,8 @@ There are also good examples of data mining use cases in destinations management
 ### Analysis level
 
 There are three main types of data analytics techniques that tourism firms can use to drive decision-making: descriptive, predictive, and prescriptive analytics. These methods become especially powerful when used together (Fig. 11.2).
+
+![Fig. 11.2. Data analytics value creation scale. Source: own elaboration](/img/fig15.png)
 
 Descriptive analytics focuses on the analysis of historical data to understand what has happened in the past. It uses basic techniques based on data aggregation and data mining, therefore any findings are usually easy to understand for a business audience. Descriptive analytics typically displays outcomes using visual data representations such as graphs, charts, reports, and dashboards that can be easily aggregated to provide a clear picture of the operations of the firm (e.g., revenue reports, inventory reports, sales reports, etc.). Another applicable use case can be found in social media with tools such as Google Analytics and Facebook Audience Insights, which provide data groupings based on counts of events such as clicks and likes. Descriptive analytics is often the basis for delving into more complex analyses.
 
