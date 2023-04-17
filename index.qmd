@@ -1,4 +1,4 @@
-# Hello! {.unnumbered}
+# Welcome! {.unnumbered}
 
 This is a Quarto book.
 
@@ -8,4 +8,4 @@ To learn more about Quarto books visit <https://quarto.org/docs/books>.
 1 + 1
 ```
 
-Tourism firms are 
+Tourism firms are
