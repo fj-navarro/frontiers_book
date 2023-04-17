@@ -1,7 +1,7 @@
 {
-  "hash": "6222cfdc66627095858a8b3bf517dfa3",
+  "hash": "5212cc0c6a7303ab60627ee50171ad26",
   "result": {
-    "markdown": "# Hello! {.unnumbered}\n\nThis is a Quarto book.\n\nTo learn more about Quarto books visit <https://quarto.org/docs/books>.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n\nTourism firms are ",
+    "markdown": "# Welcome! {.unnumbered}\n\nThis is a Quarto book.\n\nTo learn more about Quarto books visit <https://quarto.org/docs/books>.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\n\nTourism firms are\n",
     "supporting": [
       "index_files"
     ],
