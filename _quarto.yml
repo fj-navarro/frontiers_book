@@ -43,7 +43,7 @@ book:
         - 23_future.qmd
     - references.qmd
 
-bibliography: references.bib
+#bibliography: references.bib
 
 format:
   html:
