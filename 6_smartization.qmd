@@ -72,7 +72,7 @@ Digital transformation is essentially made effective through the following four 
 
 Within the framework of digital transformation, digital technologies are key drivers that provide the firm with greater interactivity and the possibility for stakeholders to participate in the creation of new value for the business, in the design of products/services, in the generation and exchange of knowledge, and even in the contribution of new experiences. This requires firms to thoroughly review their business management practices, increasingly determined by the ability to act in the new value networks that emerge from their integration into ecosystems capable of self-learning and self-organization.
 
-![Fig.6.2. Framework of digital transformation. Source: Own elaboration based on Roland Berger (2015)](/img/fig3.png){width=600}
+![Fig.6.2. Framework of digital transformation. Source: Own elaboration based on Roland Berger (2015)](/img/fig3.png){width="600"}
 
 ## Benefits of Digital Transformation
 
@@ -100,12 +100,11 @@ Digital transformation is permeating and fundamentally transforming our daily li
 
 Digital transformation is expected to drive the creation of more tangible and intangible value for tourism firms in the future. However, it is worth noting that all these benefits also come with often unforeseen costs and risks. Therefore, it is important that the owners and managers of tourism firms have a good understanding of the opportunities that are presented to them, but also of the potential challenges that surround the creation of value in digital environments. We are all going to be affected to one degree or another and no stone will be left unturned.
 
-[**Accor and Digital Transformation**]{.underline}
-
+::: {.callout-note title="Accor and Digital Transformation"}
 Accor looks to the future of digitalization by focusing on the customer experience and providing value propositions for all stakeholders in the hospitality value network. Increasingly, the hospitality industry is transforming into a digitally enabled end-to-end provider that works with different tools and technological applications that are increasingly powerful and integrated (e.g., mobile, cloud, artificial intelligence, blockchain, Internet of Things, etc). Hotels have the potential to deeply engage with guests at every possible touch point in the customer journey and provide them with new opportunities to create personalized experiences. However, just focusing on the customer is not enough. It is also crucial to reach agreements with other players in the ecosystem that allow hospitality firms to remain competitive and create new revenue streams (e.g., airlines, cruise lines, travel agents, etc.). Another important challenge is ensuring that the organization's workforce has the right digital skills to manage new customer-centric strategies. In the end, hospitality firms must understand how to apply digital technologies to their daily operations to improve guest satisfaction, employee awareness, and higher collaboration with partners. That is why the three main pillars of Accor's digital experience are: customers, employees, and partners.
 
-Source: Own elaboration based on Damnjanović et al. (2020).
-
+Source: Own elaboration based on Damnjanović et al. (2020)
+:::
 ## Challenges of Digital Transformation
 
 Too often, when someone from the ICT industry or academia delivers a speech or masterclass on digital transformation, they do so by showing the most optimistic side of the story, that is, ignoring the challenges and pitfalls that are common. However, figures speak for themselves. In 2019 alone, US\$1.3 trillion was spent on digital transformation efforts with unsatisfactory rates of return (Tabrizi et al., 2019). What's more, according to a recent Bain & Company report, only 5% of digital transformation initiatives met or exceeded expectations, 20% produced less than half of expected benefits, and 75% underperformed (Baculard et al., 2017). Despite these disappointing success rates, most firms still believe that the potential payoff of digital transformation is significant and that it can help stay competitive in the marketplace (Gaurav & Kongar, 2021).
