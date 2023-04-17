@@ -9,37 +9,37 @@ book:
     - index.qmd
     - part: intro.qmd
       chapters:
-        - call_to_action.qmd
-        - need_for_book.qmd
-        - who_should_read.qmd
-        - how_to_use.qmd
-    - part: intro_smart_firms.qmd
+        - 1_call_to_action.qmd
+        - 2_need_for_book.qmd
+        - 3_who_should_read.qmd
+        - 4_how_to_use.qmd
+    - part: part_1_intro_smart_firms.qmd
       chapters:
         - 5_fundamentals.qmd
         - 6_smartization.qmd
-        - digitalization.qmd
-        - data_driven.qmd
-    - part: smart_technologies.qmd
+        - 7_digitalization.qmd
+        - 8_data_driven.qmd
+    - part: part_2_smart_technologies.qmd
       chapters: 
-        - understanding.qmd
-        - big_data.qmd
-        - data_analytics.qmd
-        - ai.qmd
-        - iot.qmd
-        - cybersecurity.qmd
-        - enabling.qmd
-    - part: practices.qmd
+        - 9_understanding.qmd
+        - 10_big_data.qmd
+        - 11_data_analytics.qmd
+        - 12_ai.qmd
+        - 13_iot.qmd
+        - 14_cybersecurity.qmd
+        - 15_enabling.qmd
+    - part: part_3_practices.qmd
       chapters: 
-        - management.qmd
-        - transformative.qmd
-        - agility.qmd
-        - data_driven_agility.qmd
-        - leadership.qmd
-        - open_innovation.qmd
-    - part: whats_next.qmd
+        - 16_management.qmd
+        - 17_transformative.qmd
+        - 18_org_agility.qmd
+        - 19_data_driven_agility.qmd
+        - 20_leadership.qmd
+        - 21_open_innovation.qmd
+    - part: part_4_whats_next.qmd
       chapters:
-        - framework.qmd
-        - future.qmd
+        - 22_framework.qmd
+        - 23_future.qmd
     - references.qmd
 
 bibliography: references.bib
