@@ -72,7 +72,7 @@ Digital transformation is essentially made effective through the following four 
 
 Within the framework of digital transformation, digital technologies are key drivers that provide the firm with greater interactivity and the possibility for stakeholders to participate in the creation of new value for the business, in the design of products/services, in the generation and exchange of knowledge, and even in the contribution of new experiences. This requires firms to thoroughly review their business management practices, increasingly determined by the ability to act in the new value networks that emerge from their integration into ecosystems capable of self-learning and self-organization.
 
-![Fig.6.2. Framework of digital transformation. Source: Own elaboration based on Roland Berger (2015)](/img/fig3.png)
+![Fig.6.2. Framework of digital transformation. Source: Own elaboration based on Roland Berger (2015)](/img/fig3.png){width=600}
 
 ## Benefits of Digital Transformation
 

@@ -52,8 +52,7 @@ All the above could lead business owners and managers to think that in the data-
 
 Although the potential benefits to be gained from data are huge, the number of tourism firms using data to successfully transform into data-driven organizations remains very low. Smart tourism firms are data-driven organization which rely on the efficient management of their data assets. For smart firms, data management and analytics become decisive success factors in developing the ability to create, acquire, classify, and generate knowledge, as well as apply it where it can create value and generate competitive advantage. However, there is a conspicuous lack of information on how an organization can manage to transform itself into a smart (data-driven) organization and what are the key elements to consider when transitioning towards a data-driven business model (Ghorbani et al., 2019). Some recent studies have tried to synthesize the highlevel dimensions that describe an organization based on data, which are these five (Fig. 8.2) (Hupperz et al., 2021).
 
-![Fig. 8.2. Key elements of the data-driven organization. Source: own elaboration
-based on Hupperz et al. (2021)](/img/fig8.png){width=600}
+![Fig. 8.2. Key elements of the data-driven organization. Source: own elaboration based on Hupperz et al. (2021)](/img/fig8.png){width="500"}
 
 ### Digital transformation and data-driven culture
 
