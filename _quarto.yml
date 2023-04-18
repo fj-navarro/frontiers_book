@@ -1,6 +1,7 @@
 project:
   type: book
 
+toc: true
 book:
   title: "Managing the Smart Revolution in Tourism Firms (2 ed)"
   subtitle: "Innovation and Value Creation in the Era of Data"
