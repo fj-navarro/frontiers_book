@@ -1,11 +1,19 @@
-# Welcome! {.unnumbered}
+# About the Open Edition {.unnumbered}
 
-This is a Quarto book.
+The 2nd edition of Managing the Smart Revolution in Tourism Firms is now available as an "Open Access" HTML version on this site in addition to the usual print and e-book formats. The first edition was initially published in April 2023 and this second edition will have errata fixed periodically over the coming months and years. If you encounter any errata, please report them here.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+In general, the content from this website may not be copied or reproduced. The code examples are MIT-licensed and can be found on GitHub or Gitee along with the supporting datasets.
 
-```{r}
-1 + 1
-```
+If you find the online edition of the book useful, please consider ordering a paper copy or a DRM-free eBook (in PDF and EPUB formats) to support the author.
 
-Tourism firms are
+This web version of the book was created with the Quarto publishing system.
+
+### What's New in the 2nd Edition? {.unnumbered}
+
+The book has been updated for pandas 1.4.0 and Python 3.10. The changes between the 2nd and 3rd editions are focused on bringing the content up-to-date with changes in pandas since 2017.
+
+### Update History {.unnumbered}
+
+This website will be updated periodically as new early release content becomes available, and post-publication for errata fixes.
+
+-   April 18, 2023: a first draft of the second edition is uploaded to the site.
