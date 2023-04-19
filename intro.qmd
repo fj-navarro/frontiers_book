@@ -15,9 +15,3 @@ Furthermore, reality is much more complex than anybody imagines, and business ow
 This is the new normal. A time of profound and transformative change that no tourism firm can escape, no matter its size, location, or sector. All tourism firms are affected equally and strongly. So, you may be wondering right now, how can my business fully grasp the true dimension of the Smart Revolution and what it needs to do to address it effectively, given the myriad challenges it faces? This is exactly what this book is about. In it, owners and managers will find a support guide to understand the phenomenon and the true dimension of the Smart Revolution that tourism firms must tackle and will learn how to navigate these turbulent times by transforming the organization in the most effective and efficient way possible.
 
 Let me welcome you to this wonderful journey and make yourself comfortable. I hope that by reading this book you will discover a better future for yourself and for everyone in your organization.
-
-See @knuth84 for additional discussion of literate programming.
-
-```{r}
-1 + 1
-```

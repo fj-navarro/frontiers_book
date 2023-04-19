@@ -7,6 +7,18 @@ book:
   subtitle: "Innovation and Value Creation in the Era of Data"
   author: "Francisco J Navarro-Meneses"
   date: "4/18/2023"
+  favicon: cover.png
+  #search: true
+  twitter-card: true
+  site-url: https://example.com
+  repo-url: https://github.com/fj-navarro/frontiers_book
+  repo-actions: [edit, issue]
+  #downloads: [pdf, epub]
+  sharing: [twitter, facebook]
+  #sidebar:
+    #style: docked
+    #background: light
+  
   chapters:
     - index.qmd
     - preface.qmd
@@ -47,6 +59,9 @@ book:
 
 #bibliography: references.bib
 
+comments:
+  hypothesis: true
+
 format:
   html:
     theme: cosmo
@@ -54,7 +69,7 @@ format:
     documentclass: scrreprt
   epub:
     cover-image: cover.png
-
+    
 editor: visual
 
 execute: 
