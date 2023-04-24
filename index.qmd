@@ -14,11 +14,11 @@ The editor is looking for contributors from anywhere in the world, both academic
 
 Those interested can contact the editor by email, or directly commit any change to the content through GitHub. Of course any contribution, depending on the depth and quality, will be adequately referred to by the editor in future editions of the work.
 
-### What's New in the 2nd Edition? {.unnumbered}
+## What's New in the 2nd Edition? {.unnumbered}
 
 The book is beginning to incorporate changes in the wording and contents of the chapters and sections of the first edition, as well as entirely new content compared to the previous edition. To track changes as closely as possible, it is best for the reader to go to GitHub and check the queue of commits that have been accepted by the editor. To have faster access to the most structural changes of the work, the following section "Update History" shows the most important ones.
 
-### Update History {.unnumbered}
+## Update History {.unnumbered}
 
 This website will be updated periodically as new early release content becomes available, and post-publication for errata fixes.
 
