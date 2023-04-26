@@ -1,6 +1,6 @@
 # About the Open Edition {.unnumbered}
 
-The 2nd edition of **Managing the Smart Revolution in Tourism Firms** is now available as an "Open Access" HTML version. The first edition was initially published by [CABI](https://www.cabidigitallibrary.org/doi/book/10.1079/9781800620261.0000) in April 2023 and is currently available in the usual print and e-book formats. If you find the online edition of the book useful, please consider ordering a paper copy to support the author [here](https://www.cabidigitallibrary.org/doi/book/10.1079/9781800620261.0000). 
+The 2nd edition of **Managing the Smart Revolution in Tourism Firms** is now available as an "Open Access" HTML version. The first edition was initially published by [CABI](https://www.cabidigitallibrary.org/doi/book/10.1079/9781800620261.0000) in April 2023 and is currently available in the usual print and e-book formats. If you find the online edition of the book useful, please consider ordering a paper copy to support the author [here](https://www.cabidigitallibrary.org/doi/book/10.1079/9781800620261.0000).
 
 It is intended that this 2nd edition incorporates new content, expand those of the first edition and fixes errata. If you find any errors, please report them here. If you would like to contribute to the advancement of the book, read the section below.
 
@@ -18,7 +18,7 @@ Those interested can contact the editor by email, or directly commit any change 
 
 The book is beginning to incorporate changes in the wording and contents of the chapters and sections of the first edition, as well as entirely new content compared to the previous edition. To track changes as closely as possible, it is best for the reader to go to GitHub and check the queue of commits that have been accepted by the editor. To have faster access to the most structural changes of the work, the following section "Update History" shows the most important ones.
 
-## Update History {.unnumbered}
+## Update Highlights {.unnumbered}
 
 This website will be updated periodically as new early release content becomes available, and post-publication for errata fixes.
 
