@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.290">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Managing the Smart Revolution in Tourism Firms (2nd ed) - 10&nbsp; Big Data</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./11_data_analytics.html" rel="next">
+<link href="./9_understanding.html" rel="prev">
+<link href="./cover.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+<meta name="twitter:title" content="Managing the Smart Revolution in Tourism Firms (2nd ed) - 10&nbsp; Big Data">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://example.com/img/fig11.png">
+<meta name="twitter:image-height" content="2361">
+<meta name="twitter:image-width" content="2271">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part_2_smart_technologies.html">Part 2: Smart Technologies</a></li><li class="breadcrumb-item"><a href="./10_big_data.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Big Data</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Managing the Smart Revolution in Tourism Firms (2nd ed)</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/fj-navarro/frontiers_book" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Open Edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface to the Second Edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1_call_to_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">A Call to Action</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2_need_for_book.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Need for This Book</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3_who_should_read.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Who Should Read This Book</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./4_how_to_use.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">How to Use This Book</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part_1_intro_smart_firms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part 1: Introduction to Smart Firms</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_fundamentals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Fundamentals of the Smart Firm</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6_smartization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Smartization and Digital Transformation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./7_digitalization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Tourism and Digitalization</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./8_data_driven.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Towards the Data-Driven Organization</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part_2_smart_technologies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part 2: Smart Technologies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./9_understanding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Understanding Data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10_big_data.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Big Data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11_data_analytics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Data Analytics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./12_ai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Artificial Intelligence</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./13_iot.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Internet of Things</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./14_cybersecurity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Cybersecurity</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./15_enabling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Enabling Technologies</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part_3_practices.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part 3: Management Practices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./16_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Introduction to Smart Management</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./17_transformative.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Managing Transformative Change</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./18_org_agility.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Organizational Agility</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./19_data_driven_agility.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Data-Driven Agility</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20_leadership.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Smart Leadership</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./21_open_innovation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Open Innovation</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part_4_whats_next.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part 4: What's Next</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./22_framework.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Smart Transformation Framework</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./23_future.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">The Future of Smartization</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#concept-of-big-data" id="toc-concept-of-big-data" class="nav-link active" data-scroll-target="#concept-of-big-data"><span class="header-section-number">10.1</span> Concept of Big Data</a></li>
+  <li><a href="#big-data-technologies" id="toc-big-data-technologies" class="nav-link" data-scroll-target="#big-data-technologies"><span class="header-section-number">10.2</span> Big Data Technologies</a></li>
+  <li><a href="#impacts-and-opportunities" id="toc-impacts-and-opportunities" class="nav-link" data-scroll-target="#impacts-and-opportunities"><span class="header-section-number">10.3</span> Impacts and Opportunities</a>
+  <ul class="collapse">
+  <li><a href="#managerial-practices" id="toc-managerial-practices" class="nav-link" data-scroll-target="#managerial-practices"><span class="header-section-number">10.3.1</span> Managerial practices</a></li>
+  <li><a href="#organization" id="toc-organization" class="nav-link" data-scroll-target="#organization"><span class="header-section-number">10.3.2</span> Organization</a></li>
+  <li><a href="#employees" id="toc-employees" class="nav-link" data-scroll-target="#employees"><span class="header-section-number">10.3.3</span> Employees</a></li>
+  <li><a href="#real-time-decision-making" id="toc-real-time-decision-making" class="nav-link" data-scroll-target="#real-time-decision-making"><span class="header-section-number">10.3.4</span> Real time decision-making</a></li>
+  <li><a href="#analytical-performance" id="toc-analytical-performance" class="nav-link" data-scroll-target="#analytical-performance"><span class="header-section-number">10.3.5</span> Analytical performance</a></li>
+  </ul></li>
+  <li><a href="#big-data-applications" id="toc-big-data-applications" class="nav-link" data-scroll-target="#big-data-applications"><span class="header-section-number">10.4</span> Big Data Applications</a>
+  <ul class="collapse">
+  <li><a href="#consumer-applications" id="toc-consumer-applications" class="nav-link" data-scroll-target="#consumer-applications"><span class="header-section-number">10.4.1</span> Consumer applications</a></li>
+  <li><a href="#organizational-applications" id="toc-organizational-applications" class="nav-link" data-scroll-target="#organizational-applications"><span class="header-section-number">10.4.2</span> Organizational applications</a></li>
+  <li><a href="#industry-applications" id="toc-industry-applications" class="nav-link" data-scroll-target="#industry-applications"><span class="header-section-number">10.4.3</span> Industry applications</a></li>
+  </ul></li>
+  <li><a href="#challenges" id="toc-challenges" class="nav-link" data-scroll-target="#challenges"><span class="header-section-number">10.5</span> Challenges</a>
+  <ul class="collapse">
+  <li><a href="#technical-challenges" id="toc-technical-challenges" class="nav-link" data-scroll-target="#technical-challenges"><span class="header-section-number">10.5.1</span> Technical challenges</a></li>
+  <li><a href="#management-challenges" id="toc-management-challenges" class="nav-link" data-scroll-target="#management-challenges"><span class="header-section-number">10.5.2</span> Management challenges</a></li>
+  <li><a href="#financial-and-business-challenges" id="toc-financial-and-business-challenges" class="nav-link" data-scroll-target="#financial-and-business-challenges"><span class="header-section-number">10.5.3</span> Financial and business challenges</a></li>
+  <li><a href="#regulatory-and-security-challenges" id="toc-regulatory-and-security-challenges" class="nav-link" data-scroll-target="#regulatory-and-security-challenges"><span class="header-section-number">10.5.4</span> Regulatory and security challenges</a></li>
+  <li><a href="#socio-ethical-challenges" id="toc-socio-ethical-challenges" class="nav-link" data-scroll-target="#socio-ethical-challenges"><span class="header-section-number">10.5.5</span> Socio-ethical challenges</a></li>
+  </ul></li>
+  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">10.6</span> Discussion Questions</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/fj-navarro/frontiers_book/edit/main/10_big_data.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/fj-navarro/frontiers_book/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Big Data</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>The progress made by internet technologies and the widespread adoption of mobile devices have made it possible for users today to generate vast amounts of data, also known as Big Data. Ordinary people in their daily activities generate an avalanche of information, which spans different types of sources, from social networks (e.g., Facebook, Twitter, Instagram, and YouTube), review platforms (e.g., Tripadvisor), reservation systems (e.g., Booking.com, Hotels.com), blogs, discussion forums, collaborative maps, and many others (Peterlin et al., 2021). This massive user-generated content (UGC) data, along with other passive sources of data generated from devices (DGD), is one of the trends that is having the greatest impact in today’s business context.</p>
+<p>Big Data has become a core organizational asset and a crucial competitive factor in any tourism business strategy. Consequently, tourism organizations around the world are seeking innovative new techniques to help them maximize the potential of Big Data and address the new challenges created. Historically, IT departments managed the systems in which business transaction data (e.g., orders, sales, shipping, inventory) was generated, stored, and processed. But things have changed a lot in the last few years. The amount and variety of data being generated, how data is now processed, and what can be done with it, are being made possible by new advanced data analytics techniques tailored to large amounts of data (Larson &amp; Chang, 2016). These changes in the treatment of data are affecting practically all industries at an ever-accelerating pace of innovation. For example, some of the most recent developments focus on analyzing the mood of tourists and determining their state of mind (i.e., when a new product or service is introduced or when tourists have a problem). This gives an idea of the depth of the changes that are taking place and how firms are trying to find new answers to who, when, and where.</p>
+<p>Business owners and managers must be aware that the earthquake caused by Big Data is not a spontaneous event. In fact, it is part of a transition that is taking place on a global scale in economies, which involves the metamorphosis of value creation from tangible assets to intangible assets that have special economic properties (Mihet &amp; Philippon, 2018). Parallel to the increasing availability of large amounts of data, in recent years there has been a remarkable advance at a theoretical level and in the practical applications of what can be done with the data. These advances, mainly focused on data science, are allowing the development of high-performance algorithms that help maximize the value of data for tourism firms. This has proven that Big Data is no longer considered a passing fad and has become a key tool for detecting patterns, understanding consumer behavior and satisfaction in a more accurate and deeper way, and predicting key variables, such as the arrival of tourists, hotel occupancy, or the profitability of firms (X. Li &amp; Law, 2020).</p>
+<p>Ironically, even though tourism firms have more data than ever before, only a small fraction of the data is actually serving a purpose. This is not surprising because the challenges facing any organization willing to extract value from data are considerable, such as how to handle large volumes of data and integrate dozens, if not hundreds, of different sources, and provide consistency to the various formats in which the data is stored. New technologies, such as cognitive computing, promise to address this challenge. These technologies are specifically designed to integrate and analyze large data sets and extract meaning from different types of data, thus representing a big leap forward from classical computing, since they mimic some aspects of human thought when it comes to evaluating information but without the biases introduced by human cognition (Castaldi et al., 2018).</p>
+<p>In summary, Big Data promises exciting new opportunities, including unlocking new insights that can accelerate the creation of new products and services, boost customer relationships, improve operational processes, and even embrace innovative business models. Furthermore, Big Data is the perfect companion to traditional “small data”. However, Big Data and all its potential will come to nothing if organizations are not capable of integrating it, analyzing it, and understanding it. And this is a highly complex process that goes beyond Big Data, as it transcends the mere capture and processing of information, and requires organizations to equip themselves with specialized techniques and knowledge with which to analyze the results and extract value from them.</p>
+<section id="concept-of-big-data" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="concept-of-big-data"><span class="header-section-number">10.1</span> Concept of Big Data</h2>
+<p>It is not easy to define what Big Data is, or to draw a clear dividing line between what is “big” and “small” data. This difficulty is reflected in the number and variety of conceptualizations that can be found about Big Data in the literature.</p>
+<p>Perhaps one of the most common and widely accepted ways of defining Big Data is through the “feature-oriented perspective”, which characterizes Big Data according to three Vs: volume, variety, and velocity. Unlike other types of data, Big Data cannot be stored on an ordinary PC or portable hard drive, as it typically exceeds 100 terabytes or even petabytes of information (hence the volume). Big Data emanates from a wide variety of structured and unstructured sources, and can have many formats (e.g., texts, sounds, images, videos). In addition, the data is usually spatially and temporally referenced (variety). Likewise, the speed of data creation and analysis occurs in a very short time, which allows decision-making to be adapted to very short time windows that may lead to the initiation of corrective and/or adjustment actions practically in real time.</p>
+<p>But these are not the only characteristics that help us define Big Data. The conceptualization based on the three Vs has been extended several times to accommodate four more Vs, as shown in Fig. 10.1 (Mariani et al., 2018).</p>
+<ul>
+<li><p><strong>Veracity,</strong> which refers to the reliability, validity, and completeness of data.</p></li>
+<li><p><strong>Value,</strong> which highlights the role of Big Data as a tool used to create value for both consumers and firms.</p></li>
+<li><p><strong>Variability,</strong> because Big Data often consists of unstructured records whose meaning can change depending on the moment and the context.</p></li>
+<li><p><strong>Visualization,</strong> or the need for the insights obtained from Big Data to be displayed in a visually attractive and understandable way for users so that they can do useful things with them.</p></li>
+</ul>
+<p>In addition to the “feature-oriented perspective”, Big Data can also be defined according to a “process-oriented perspective”. This approach is based on highlighting the processes that are inherent to Big Data, such as the collection, storage, processing, and analysis of Big Data, and the technologies that support them. Using this approach, Big Data is the set of data that is difficult to collect, manage, analyze, and visualize in a limited time with the available technologies of today (Chen &amp; Zhang, 2014). This entails the need for organizations to implement processes aimed at managing Big Data and technologies that overcome the limitations of traditional technologies.</p>
+<p>Other characteristics that distinguish Big Data, apart from those mentioned in the “feature-oriented” and “process-oriented” perspectives, are the following:</p>
+<ul>
+<li><p>Big Data often collects and explores entire populations rather than samples, thus challenging conventional statistical tools and inferential methods.</p></li>
+<li><p>Big Data provides a high level of granularity in the data, which allows the analyst to focus on very fine aspects or very specific qualities of the information available, which can be reflected in finer and more accurate decision-making.</p></li>
+<li><p>Big Data can be used flexibly when analyzing different data collections and extracting meaning from them.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\img/fig11.png" class="quarto-discovered-preview-image img-fluid figure-img" width="500"></p>
+<p></p><figcaption class="figure-caption">Fig. 10.1. Big Data dimensions. Source: own elaboration based on Sebei et al.&nbsp;(2018)</figcaption><p></p>
+</figure>
+</div>
+<p>Owners and managers should keep in mind that when talking about Big Data, we are not only referring to large public or internal transactional structured datasets (e.g., sales, customers, inventories, data from the population register, vehicle registration, etc.), but also peripheral and non-transactional unstructured data generated by sensors, smartphones, and radio-frequency identification (RFID) chips, which is used to track the dynamics of visitors in a territory, learn about the online behavior of consumers and their interactions in social media, and predict decisions and trends faster and more accurately (Morabito, 2015; Xu et al., 2020).</p>
+<p>Big Data is also synonymous with data analytics and disruptive technologies (Unhelkar, 2017). Analytics has been around for some time now and has gone through various stages, from the invention of spreadsheets that allowed for simple calculations to today’s sophisticated analytics tools. Data analytics relies heavily on statistical techniques, including both descriptive and predictive modeling, to understand not only “what has happened” but “what will happen”. From a statistical point of view, Big Data analytics allows the identification of patterns, makes predictions, and provides advice for better decisions making (i.e., which products to deliver to customers, or which services to bundle). For their part, Big Data technologies allow complex analytics to be applied to large and highly dispersed data sets, providing very fine granularity and, in essence, leading to accurate decision-making. A technological framework widely used by firms that work with Big Data is Hadoop. The Hadoop ecosystem enables programmatic management of all kinds of data science-related tasks (using open source languages such as Java, Python, and R), ranging from data storage in a distributed database architecture to data manipulation, automation and business analytics.</p>
+</section>
+<section id="big-data-technologies" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="big-data-technologies"><span class="header-section-number">10.2</span> Big Data Technologies</h2>
+<p>Big Data would not exist without a strong pace of technological innovation. In recent years, there has been a real explosion in the availability of data as a result of the number of devices connected to the internet, which has increased exponentially. This phenomenon has attracted the attention of the technology industry and the interest of computer and data scientists, who work together to develop new methods that go beyond traditional data storage and management tools and are able to extract value from Big Data (Mariani et al., 2018).</p>
+<p>As has happened in other industries, tourism has widely recognized the need to address these new technologies and use Big Data to implement a customer-centric approach that improves consumer experience and satisfaction. Big Data-based approaches solve many of the problems associated with working with representative samples of data, as they can encompass almost the entire population under scrutiny. In this way, Big Data becomes a powerful tool to address new and innovative research questions that can ultimately drive the creation of new value for tourism firms and their customers.</p>
+<p>Compared to conventional relational database management systems, which are considered standard for structured data management, Hadoop and NoSQL are technological solutions focused on handling Big Data. Both are complementary and compatible with each other, but there are also substantial differences between them. The Hadoop framework is often used when data sizes are really big. Its origin was a published article on the design and implementation of the Google File System (Ghemawat et al., 2003), a scalable distributed file system for data-intensive applications, supporting a virtually unlimited number of computers in a network (nodes) to process petabytes of data simultaneously. Hadoop is currently a collection of open software utilities built for both storage and distributed parallel processing of data sets. It is available through the Apache distribution or from providers such as Cloudera, MapR, and HortonWorks. Hadoop is made up of four main components (Fig. 10.2).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\img/fig12.png" class="img-fluid figure-img" width="700"></p>
+<p></p><figcaption class="figure-caption">Fig. 10.2. The Hadoop ecosystem. Source: own elaboration based on GeeksforGeeks (2021) and Cloudera (2022)</figcaption><p></p>
+</figure>
+</div>
+<ul>
+<li><p><strong>HDFS (Hadoop File System),</strong> is the storage unit for large sets of structured and unstructured data and, as such, is the main component of the Hadoop ecosystem. With HDFS, data can be stored on thousands of machines (called nodes), and metadata can be maintained in the form of log files for fast and efficient access.</p></li>
+<li><p><strong>MapReduce,</strong> is the programming-based processing unit of the Hadoop ecosystem, which makes it possible to write applications that transform large data sets into manageable sets using parallel and distributed algorithms. Hadoop splits files into large blocks and then sends the packaged code to cluster nodes to process the data in parallel. With MapReduce the process is done on the slave nodes and the final result is then sent to a master node.</p></li>
+<li><p><strong>YARN (Yet Another Resource Negotiator),</strong> is the resource management unit of the ecosystem and the one that manages the resources in the clusters of nodes, programming and allocating resources for the Hadoop system and making sure the machines are not overloaded. Hadoop YARN operates as an operating system for Hadoop built on top of HDFS.</p></li>
+<li><p><strong>Hadoop Common (also called Core),</strong> consists of utilities and libraries to start Hadoop and support the rest of the modules.</p></li>
+</ul>
+<p>Other tools and software packages that can be installed on top of or alongside Hadoop include Spark, Hive, Impala, Pig, Hive, HBase, Kudu, Kafka, ZooKeeper, Flume, Sqoop, Oozie, and Storm, all of which can work collectively to provide services such as data absorption, analysis, storage, and maintenance.</p>
+<p>One of the main benefits of using Hadoop is that the firm can use business machines as data nodes, so the system is highly scalable and allows any data set to be processed faster and more efficiently than with a conventional computer architecture. This can lead to significant savings for firms since they do not have to invest thousands of dollars in very expensive data nodes. In addition, the Hadoop framework is written primarily in the Java language, with some native C code, giving users the flexibility to program it either with Java or any other non-Java programming language through Hadoop Streaming.</p>
+<p>Depending on the specific needs of the firm, it may be convenient to use Hadoop and NoSQL separately, or together in mixed architectures, thus taking advantage of the characteristics of each one to find the most efficient answers. NoSQL databases (non-relational databases) are a more flexible and scalable solution than conventional relational databases as they are designed to manage and retrieve data on a massive scale in formats other than tables (as relational databases do). Since NoSQL databases are distributed databases (where data is stored on multiple servers), new data can be added to them without having to be defined upfront in the database schema, thus allowing rapid processing of big volumes of data of all kinds. In this way, NoSQL databases cope with the scalability and performance problems of conventional relational databases in situations of concurrence of thousands of users and millions of daily queries. As data continues to grow, simply add more hardware to keep up, without slowing down performance. Some of the most popular NoSQL platforms are MongoDB, Elasticsearch®, and Redis®.</p>
+<p>Ultimately, NoSQL databases provide a different data management system than relational systems and the Hadoop framework, and, although both can operate autonomously, they are compatible. The integration between NoSQL and Hadoop systems is almost native, making it easy to integrate with Hadoop. Sometimes it can be very helpful to connect to Hadoop to do analysis from NoSQL, where the information is stored. This dynamic NoSQL database schema with Hadoop software is valuable for agile development when rapid and continuous iteration is required. Big Data and Agile can go hand in hand: Big Data allows the firm to be agile, and the agility provided through Hadoop-NoSQL gives the firm the capabilities to formulate successful Big Data strategies. As Big Data continues to grow, it is realistic to think that the combination of NoSQL database and Hadoop software will become a powerful framework that will allow firms to reach their full potential with data.</p>
+</section>
+<section id="impacts-and-opportunities" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="impacts-and-opportunities"><span class="header-section-number">10.3</span> Impacts and Opportunities</h2>
+<p>In the era of Big Data, great opportunities are continually being created for virtually all functions of tourism firms. Through Big Data, the firm can accumulate competitive benefits, which can be conclusive if the firm also learns to use them on an efficient scale and to extract knowledge from data with the appropriate techniques. Next, we examine some of the major impacts and opportunities that Big Data can bring to tourism organizations in the development of innovative strategies.</p>
+<section id="managerial-practices" class="level3" data-number="10.3.1">
+<h3 data-number="10.3.1" class="anchored" data-anchor-id="managerial-practices"><span class="header-section-number">10.3.1</span> Managerial practices</h3>
+<p>Big Data is having a considerable impact on the management practices and business models of tourism firms (Centobelli &amp; Ndou, 2019). The exploitation of Big Data by tourism firms represents an opportunity with enormous potential to create new value for both organizations and consumers, as well as to improve the planning and management of tourism firms. The implementation of increasingly powerful capacities to extract and use different types of information and knowledge that remains hidden in sites such as social networks, mobile applications, etc., can be used by tourism firms to improve their daily operations. Owners and managers of tourism firms, supported by their teams and data specialists, need to decide on the data sources that are appropriate (e.g., transactional data, social networks, reservations, etc.); collect and store data on a large scale using the latest data manipulation and storing techniques (e.g., traditional data warehouses, data warehouses, data lakes); clean and validate data considering privacy and security in data access; extract knowledge from Big Data, emphasizing speed and its multi- and omni-channel applications; and use the knowledge generated to disseminate it throughout the organization and decision makers.</p>
+<p>The analysis of user-generated data (UGC), such as reviews, tagged videos, and photos has become an inexhaustible source of insights to improve tourism products and services to the needs of customers, uncover unknown patterns in tourism demand, and, in general, extract valuable information that would otherwise remain hidden. By exploiting Big Data, tourism firms can improve their marketing strategies and analyze the performance of their products and services. For example, firms can apply sentiment analysis techniques on the content generated by users themselves, or apply text analytics techniques to multiple data sources (e.g., customer reviews) to examine the quality of the information. In addition, UGC typically incorporates geotagged information related to users’ travel routes, duration of visits, places of interest, sources of tourists, etc., which can be a good starting point to characterize the geographical preferences of tourists. This information can also be key to planning tourism marketing actions.</p>
+<p>It is key that owners and managers do not limit their efforts exclusively to the collection, experimentation, and analysis of Big Data. The real challenge to Big Data and data analytics success is using every insight gained from data to make decisions that lead to greater business benefits. Surely most owners and managers will not initially make their decisions based solely on data but will use whatever knowledge they have to support their decisions. Even in more mature phases, it is almost certain that they will want to continue complementing Big Data with data obtained from “traditional” or “small data” sources (e.g., traditional customer surveys) to enrich the 360-degree views of their customers. Therefore, it is foreseeable that tourism firms will continue to conduct surveys of their customers as they have done in all these years to find out customer perceptions, while progressively integrating the “small” data with Big Data more focused on understanding the actual behavior of tourists.</p>
+</section>
+<section id="organization" class="level3" data-number="10.3.2">
+<h3 data-number="10.3.2" class="anchored" data-anchor-id="organization"><span class="header-section-number">10.3.2</span> Organization</h3>
+<p>Organizations do not change easily, and the value of Big Data and analytics may not be evident to everyone. Therefore, firms must continue to empower employees, customers, and suppliers to change their daily habits and behaviors and guide them through the data-driven transition without giving up. Tourism organizations also need to establish who will own and sponsor Big Data and analytics initiatives. They must devise a system of incentives aligned with business objectives that stimulate and reinforce behaviors based on data. Only in this way can it be ensured that Big Data ends up integrated into the firm’s operating and decision-making processes.</p>
+<p>Tourism firms must set up their approach to Big Data deployment from the outset, which means they need to allocate data collection and ownership tasks among different business functions. All this should be done based on a wellstructured plan whose mission is to generate new knowledge that is of value to the business. Of course, this plan should also include other key aspects, such as those related to integration with the technological infrastructure, privacy policy, and access rights. In short, a Big Data implementation plan will have to lay the foundations for the governance framework for Big Data and analytics within the organization.</p>
+<p>Business owners and managers must be aware that data alone cannot create value without powerful data processing capabilities. Data science is not a panacea to harness the full power of Big Data. Even more important than the resources dedicated to data are the capabilities to manage these resources. For this reason, organizations must embed Big Data management skills in their employees and take this into account when carrying out recruitment and selection processes. Likewise, organizations must implement human resources practices aimed at democratizing access to and use of data, as well as exploitation and experimentation with Big Data, seeking to achieve a balance between leadership, talent management, and culture that enhances opportunities for value creation.</p>
+<p>The organizational model that firms may adopt to make the transition to Big Data will largely depend on its business objectives and operating model. In a very simplified way, there are four models from which organizations can choose to optimize Big Data in the organization (Morabito, 2015), which vary according to the degree of centralization in decision-making.</p>
+<ul>
+<li><p><strong>Independent division within the organization:</strong> Each division of the organization has different sets of data that are managed independently of the rest and based on which they make their own decisions. In this model, the level of supervision and monitoring by a central unit that controls or directs the Big Data is very low or does not exist.</p></li>
+<li><p><strong>Divisions within the organization with central support:</strong> This is an organizational model in which divisions make their own decisions about data, but where divisions cooperate with each other in developing Big Data initiatives. For this, they have the support of a central unit that, in addition to coordinating the initiatives, also supervises the results obtained.</p></li>
+<li><p><strong>Center of Excellence:</strong> In this model there is an autonomous center that supervises the implementation of Big Data within the organization, so that the divisions within the organization follow the initiatives set by the center, which is also responsible for coordinating them.</p></li>
+<li><p><strong>Completely centralized model:</strong> In this model there is a corporate center that is responsible for prioritizing Big Data initiatives, allocating resources, coordinating the implementation of initiatives, and supervising the results obtained. In practice, it is difficult to opt for one model or another universally and for all types of organizations in all industries, so each organization must evaluate its organizational starting point, the resources and talent it has, how far it is willing to go, and if it prefers to focus more on exploitation or exploration activities. After this, the organization must choose the degree of centralization or decentralization that it considers most appropriate.</p></li>
+</ul>
+</section>
+<section id="employees" class="level3" data-number="10.3.3">
+<h3 data-number="10.3.3" class="anchored" data-anchor-id="employees"><span class="header-section-number">10.3.3</span> Employees</h3>
+<p>The role of employees in the adoption of Big Data and data analytics is crucial in the context of tourism firms. Tourism firms have more and more access to Big Data generated by users through digital platforms, which makes them highly dependent on having qualified employees who know how to manage, interpret, and use data from their customers and users effectively and efficiently. Employees’ abilities to interpret data and extract meaning from it based on varying contexts becomes crucial to firms. This means that firms need to hire, or at least have access to, data scientists who can help them deeply understand consumers in the markets in which they operate.</p>
+<p>Employees are the main drivers of organizational knowledge creation. From this perspective, a firm is an organization that integrates the knowledge that resides within and through individuals. Therefore, the greater the organization’s ability to democratize data and to expand data applications, the greater the probability of increasing the potential value created from Big Data (Shamim et al., 2020). At an employee level, this is achieved by reinforcing the interactions between the employees themselves within and between the departments of the firm, so that Big Data can be integrated into the different functions and decision-making areas of the organization. These emerging interactions between individuals, coupled with increasingly data-intensive business processes, make employees better equipped to respond quickly to changing consumer needs.</p>
+<p>In addition to this ability to exploit Big Data, the ability to experiment with data is also crucial for tourism firms. Experimentation with data is key to creating value from Big Data, as it encourages trial and error and encourages an innovative attitude among the organization’s employees. The most successful firms in the use of Big Data and analytics are those whose employees are continuously involved in the process of generating and experimenting with ideas, which allows them to constantly absorb new information, adjust their strategies as new opportunities arise, and update their capabilities to generate competitive advantages.</p>
+<p>Last but not least, the employees of tourism firms must have skills related to the management of Big Data, that is, skills that enable them to activate the knowledge generated from the data. Owners and manager should note that while many firms are capable of collecting a significant amount of data, not all are capable of responding in a timely manner to the opportunities that arise from the exploitation of that data. Therefore, without the activation of knowledge, data cannot be transformed into real value for the business. The bottom line is that to harness value creation through Big Data, tourism firms need to devise strategies to develop Big Data management skills among employees and stakeholders. For example, organizations through human resources practices can enhance Big Data democratization, experimentation, and execution capabilities, leading to value creation and ambidexterity in the organization. Similarly, organizations can also emphasize Big Data capabilities through their recruitment and selection processes.</p>
+</section>
+<section id="real-time-decision-making" class="level3" data-number="10.3.4">
+<h3 data-number="10.3.4" class="anchored" data-anchor-id="real-time-decision-making"><span class="header-section-number">10.3.4</span> Real time decision-making</h3>
+<p>Real-time business intelligence is the ability to deliver information about business processes as they occur. This capacity is linked to the ability to perform automated analysis of Big Data. Real-time data generation and business intelligence are promising new sources for creating valuable insights that don’t yet exist in the business about on-site consumer behavior through ubiquitous mobile apps and data mining. When applied to data mining and predictive learning, advances in artificial intelligence also offer great potential to enhance the intelligence capabilities of tourism firms, helping them understand the hyper-competitive markets in which they operate. Examples of these new capabilities include those offered by mobile customer relationship management applications (m-CRM), which can automatically detect customers’ business opportunities and immediately communicate with their smartphones to respond to them; or real-time travel patterns extracted from users’ mobile devices, which can be used to build predictive transportation and urban mobility models, or recommendation systems. In these cases, the ability to act on data in real time improves the match between customer needs and the products and services offered by the tourism firm.</p>
+</section>
+<section id="analytical-performance" class="level3" data-number="10.3.5">
+<h3 data-number="10.3.5" class="anchored" data-anchor-id="analytical-performance"><span class="header-section-number">10.3.5</span> Analytical performance</h3>
+<p>Big Data technologies serve the new analytical paradigm consisting of explaining the causes of tourism phenomena from exploited data and not from the traditional deductive method based on establishing hypotheses that are later refuted by empirical evidence (Xu et al., 2020). Given the large scale of Big Data, it is now possible to reduce or eliminate the traditional limitations of conventional statistics due to the small size of the samples, thus overcoming the sample bias (J. Li et al., 2018). This brings to the table great advantages and opportunities to understand small- and large-scale tourism phenomena, making it possible to identify and visualize new behaviors that have remained hidden until now in view of conventional statistical techniques (i.e., the unequal distribution of the environmental impacts of tourism).</p>
+<p>Second, the different data sources used by Big Data allow the same old phenomena to be explored from different perspectives simultaneously, thus increasing the degree of complexity of the tourism reality under analysis. For example, data obtained through GPS, smartphones, search engines, and social media in a place could be used to monitor the flow of tourists and address problems related to carrying capacity and overtourism. In other cases, geo tagged tourist sentiment data from social media could make it possible to explore human behavior in relation to a particular tourist product, place, or asset, or even attempt to explain tourist satisfaction. Structured data from public administration datasets could in turn be used to monitor the impact of tourism activities on the rest of the economy, or the global trends of tourism demand.</p>
+<p>The multidimensional nature and granularity provided by modern data mining and Big Data analytics make it possible to exploit mixed methodologies to study tourism phenomena, both at a macro level (to understand the tourism system as a whole) and a micro level (to provide contextual information about more fragmented subsystems within the tourism ecosystem). In these cases, since the data sources are usually in the hands of different stakeholders, it will necessary to establish the collaboration of all of them to meet the final goals.Sometimes, gaining government support will also be key to guiding concerted efforts from tourism stakeholders and beyond and aligning Big Data-focused initiatives as much as possible (e.g., open data initiatives).</p>
+<p>Fourth, since Big Data systems constantly capture data, usually through automatic data collection methods, there are historical series that allow longitudinal studies to be carried out that help tourism firms to understand disruptive changes and trends. Finally, Big Data opens new paths to understand the behavior of the individual within broader and more complex socio-cultural contexts. In other words, Big Data offers the possibility of making more precise projections on the interactions that occur at the micro level between individuals and at the group level, which would allow establishing connections, for example, between these interactions and the preference for certain products/services, and predict bookings or sales. All the above could provide tourism firms with knowledge of enormous value when it comes to improving their products/services and supporting their business decisions. The opportunities seem endless. Furthermore, by incorporating Big Data into the organization’s culture, firms could increase their sales as they capture new customers, test new segments, and retain existing ones; firms could experiment with new innovative products/services and customize them according to the tastes and preferences of consumers; they could identify current trends and set their pricing strategies in real time to be more profitable; and the list could be much longer (Del Vecchio, Mele, et al., 2018a; Peterlin et al., 2021; Stylos et al., 2021).</p>
+<p>However, all these advantages and benefits come at a cost. The development of a culture based on Big Data will most likely require tourism firms to reengineer their product/service delivery processes, making them more efficient in terms of operating costs and adapting them to the level of service expected by customers. In short, a culture based on Big Data implies the transformation of the core elements of the firm’s business model, reconfiguring them from top to bottom and making them depend not on their tangible assets, but on the data and the organization’s capacity to extract value and knowledge from them. There is no doubt that the above would have a significant impact on the design of business marketing and on the effectiveness of the marketing actions of tourism firms.</p>
+</section>
+</section>
+<section id="big-data-applications" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="big-data-applications"><span class="header-section-number">10.4</span> Big Data Applications</h2>
+<p>Big Data applications are many and varied and are contributing to the transformation of tourism firms through a new range of technologies and technological innovations that have the potential to change the business of tourism forever. With Big Data technologies and data analytics, today it is possible to collect a large amount of data generated by tourists throughout the travel process and then extract it in the form of actionable insights for business. Therefore, business owners and managers need to start thinking about how its benefits have an impact at the level of the consumer, the organization, and the tourism sector in general.</p>
+<section id="consumer-applications" class="level3" data-number="10.4.1">
+<h3 data-number="10.4.1" class="anchored" data-anchor-id="consumer-applications"><span class="header-section-number">10.4.1</span> Consumer applications</h3>
+<p>With Big Data tourism firms can analyze various types of tourist behavior, including behavior in the spatial, temporal, and spatio-temporal dimensions, as well as that associated with decision-making (Lv et al., 2021). Due to the popularity achieved by mobile devices and the development of technologies that allow these devices to be monitored, the Big Data thus generated allows the spatial and temporal behavior of tourists to be explored with considerable precision. For example, UGC and DGD can be used to analyze tourist behaviors in a time interval. For its part, the Big Data generated from online information searches and the information exchanged by users after purchases can provide valuable information to understand the consumption behavior of tourists and their decision-making process.</p>
+<p>The UGC data from the opinions and attitudes of tourists in relation to their travel experience is a highly valuable source of Big Data that can be used to explore the attitudes of tourists – mainly those related to satisfaction/ dissatisfaction and preferences. Unlike traditional data (e.g., surveys), which unveils “stated preferences”, Big Data uses UGC data for “revealed preferences” from a much larger and therefore more representative sample of the public. Through the Big Data from online platforms and social media, tourism firms can analyze consumer satisfaction/ dissatisfaction and preferences (e.g., quality of hotel service, location, mobility, etc.) thus avoiding biases caused by subjective sampling and predefined attributes.</p>
+</section>
+<section id="organizational-applications" class="level3" data-number="10.4.2">
+<h3 data-number="10.4.2" class="anchored" data-anchor-id="organizational-applications"><span class="header-section-number">10.4.2</span> Organizational applications</h3>
+<p>At an organizational level, Big Data applications are mainly focused on improving marketing management and contributing to better decision-making. Through Big Data firms are beginning to transform their marketing strategies, customer service, and even the way they promote products/services. Big Data can provide valuable insights for tourism firms to improve their marketing strategies and operations, and act on customer product/service personalization and recommendation. For example, the exploitation of Big Data obtained from customer reviews (extracted from platforms such as Tripadvisor) could be used to segment hotel customers; likewise, the analysis of large volumes of travel photos published by users on social media could serve to discover the attributes preferred by tourists in relation to a product/service or a place.</p>
+<p>The use of Big Data and data analytics tools allows organizations to obtain unprecedented amounts of information that can be analyzed immediately and shorten the time cycle for decision-making. The implementation of Big Data in the organization makes it easier for the firm’s employees to analyze large amounts of data in order to create more value for the firm, for example, by identifying the areas of the organization in which costs can be reduced, automating repetitive tasks, etc. Big Data can also be of great help to business leaders, who can make knowledge-based decisions such as what is the best way to meet customer needs through new products and services.</p>
+</section>
+<section id="industry-applications" class="level3" data-number="10.4.3">
+<h3 data-number="10.4.3" class="anchored" data-anchor-id="industry-applications"><span class="header-section-number">10.4.3</span> Industry applications</h3>
+<p>From the tourism sector point of view, the use of Big Data and advanced data analytics techniques promises to improve the predictions of various indicators of tourism demand. For example, Big Data can be used to predict the volume of tourist arrivals in cities and countries, using image and web search data from Google Trends. Other applications can focus on building predictive models of hotel occupancy (weekly, monthly) in certain destinations using Big Data time series obtained from web traffic data. Structured Big Data can also be combined with unstructured Big Data to increase predictions accuracy, for example, by combining data from government sources with web browser traffic data to predict tourists arrivals (Lv et al., 2021).</p>
+</section>
+</section>
+<section id="challenges" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="challenges"><span class="header-section-number">10.5</span> Challenges</h2>
+<p>The use of Big Data represents a breakthrough in the management of tourism firms. The incorporation of tourism firms into the era of Big Data implies farreaching challenges that drive organizations to find a holistic approach to data, analytics, and information technology, to enable timely and accurate decisionmaking and sustained competitive advantage. The biggest challenge of Big Data is not only technical but also cultural and managerial (Kung et al., 2015; McAfee et al., 2012), meaning that organizations entering the era of Big Data not only need to change traditional IT architectures, but must fundamentally develop a data-centric culture that enables them to efficiently and continuously extract value from data. There is no doubt that most Big Data is of great value to the firm and, if used correctly, can become a key organizational asset that helps the organization achieve competitive advantage. However, most organizations make limited use of Big Data because they lack the necessary tools and/or do not understand the value of data. Not to mention that the level of general knowledge in organizations about the value of Big Data for decision-making is low (Olszak &amp; Zurada, 2019).</p>
+<p>To reap the optimal benefits of Big Data, organizations must transform and incubate a Big Data mindset, finding the best ways to generate insights and extract value from data. This requires firms to develop new strategies that guide them in a new direction. Ultimately, the firm is faced with a complex situation that must be addressed with a strategic vision that optimally combines these interdependent factors and reinforce them to generate unparalleled innovative solutions.</p>
+<p>Be that as it may, the pace of adoption of Big Data (and by extension of data analytics) in tourism firms is slow and to a certain extent disappointing. This situation is highly influenced by the lack of vision on the part of owners and managers when deciding to integrate the organization’s data with the firm’s operational needs, but also by the lack of analytical skills of employees and a culture that does not guarantee that departments will share data instead of limiting its use (Stylos et al., 2021). No less important is the fact that any Big Data strategy is, by definition, expensive in terms of time and resources, which makes it difficult for many firms that are not able to find the pace that best suits them to adopt Big Data. Figure 10.3 shows the typical challenges tourism firms face when adopting Big Data.</p>
+<p>Despite everything said above, owners and managers should note that Big Data is not yet implemented at a sufficient level in tourism firms to create formidable value, so there is not yet enough knowledge on the challenges and barriers that tourism firms actually face. Notwithstanding, some of the main challenges that tourism firms will most likely have to address with Big Data are discussed below.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\img/fig13.png" class="img-fluid figure-img" width="700"></p>
+<p></p><figcaption class="figure-caption">Fig.10.3. Challenges of Big Data for tourism firms. Source: own elaboration</figcaption><p></p>
+</figure>
+</div>
+<section id="technical-challenges" class="level3" data-number="10.5.1">
+<h3 data-number="10.5.1" class="anchored" data-anchor-id="technical-challenges"><span class="header-section-number">10.5.1</span> Technical challenges</h3>
+<p>The tourism firm faces multiple technical challenges when dealing with Big Data and data analytics. Most of these technical challenges arise from the need to manage the large volume of data, its heterogeneity and noise, and to ensure the quality, reliability, and accuracy of the data. There is no doubt that tourism is a challenging ecosystem to address the processes of collecting and managing data sources and, in general, to put into practice the four Vs: volume, variety, velocity, and veracity.</p>
+<p>In this challenging context, data silos play a critical role. Instead of data being collected in one place, it is often found siloed across different systems within the organization, therefore compromising data collection and processing, as well as affecting its quality and accuracy. It is still quite common for organizations not to share or enable data integration due to privacy regulations (Stylos et al., 2021). Most of the time it is simply because departments consider the data to be part of their business’s own “competitive advantage” and prefer to have them safely stored away.</p>
+<p>In practice, the underlying problem in many organizations is that data is not seen as a core business asset; nor is data analytics seen as one of its most profitable capabilities, but rather as a “competitive advantage” unique to a single department or business unit. Therefore, to develop innovative products/services from Big Data, organizations need to first uncover their hidden data reserves in departments and integrate the data stored in multiple internal systems with all kinds of external information. This highlights the importance of establishing knowledge management infrastructures in tourism firms that allow organizations and their key stakeholders to pool valuable knowledge resources that can be used at all levels of the organization.</p>
+<p>Another major source of technical challenges for the tourism firm is found in the lack of a data standard. Data standards are important because they can speed up and make more efficient the processes of collecting, processing, and exploiting Big Data. Data standards prevent data from being subject to the arbitrariness of people or the departments in the organization that decide what, how, and why some data must be collected and managed to the detriment of others. The tourism sector should think about developing and adopting its own data standard as soon as possible if it really wants to give Big Data and data analytics a definitive boost and mitigate many of the risks that are currently associated with Big Data management.</p>
+<p>In addition, there is the critical challenge of data access. Not all Big Data is easily accessible and shared as open data. While it is relatively easy to access data from social media and online platforms, data from mobile phones or sensing devices is subject to strict personal data privacy regulations. This makes data difficult to access or inaccessible to most actors in the tourism ecosystem, even though this data is often the key to analyzing tourist behavior and making decisions about business operations.</p>
+<p>Closely related to data access is also the challenge of data quality, especially UGC. Consumers may provide false or low-quality reviews on platforms, social media, and online blogs, which do not correspond to real and objective situations (Lv et al., 2021). The situation is even worse if you think that there are organizations that create fake data to attract customers (i.e., by hiring spammers, who send huge numbers of fake reviews in favor of a firm or a product/ service). This is making confidence in the quality of Big Data a growing concern for stakeholders in the tourism ecosystem.</p>
+<p>The development of new analytical solutions to handle the large volume and variety of data is another endless source of technical challenges for tourism firms. As research into analytical methods advances, tourism firms’ interest in these techniques has grown to unprecedented levels. Today, business owners and managers are increasingly concerned with accessing this type of technology and data scientists with applying it to everyday business practices. Meanwhile, tourism SMEs that cannot afford to hire data scientists seek new ways to collaborate with other firms, inside and outside of tourism, to pool shared resources and carry out data analytics tasks.</p>
+<p>Many of the new analytical techniques are aimed at avoiding the algorithmic bias that firms face when using Big Data and data analytics. This bias occurs when the data used as inputs are collected, selected, or used based on certain human attitudes or values (Samara et al., 2020). As a result, the supposed neutrality of Big Data and analytics models is often lost, reducing the “explanatory” power of Big Data (e.g., machine learning-based models).</p>
+<p>Additionally, the fact that most of the algorithms currently used work in “black box mode”, that is, they have internal weights and relationships between variables that are unclear and not transparent at all, means the loss of control over the process of data processing and the ability to make corrections or adjustments. Another factor that affects the quality of the algorithms has to do with the population bias. Generally, the samples subject to Big Data correspond to the part of the population that is more likely to use mobile devices, such as young people and the population with a higher educational level that knows how to use technologies. Therefore, the findings obtained from Big Data cannot always be extrapolated to the rest of the population (Xu et al., 2020), which negatively affects the explanatory power of the algorithms.</p>
+</section>
+<section id="management-challenges" class="level3" data-number="10.5.2">
+<h3 data-number="10.5.2" class="anchored" data-anchor-id="management-challenges"><span class="header-section-number">10.5.2</span> Management challenges</h3>
+<p>The most important challenges posed by Big Data are not of a technological nature but are found in how to create a data-centric culture and how to build business models that integrate business functions with those of IT and data management. The former is one of the biggest barriers to the effective implementation of Big Data in the tourism firm. It manifests in contexts marked by a lack of managerial leadership, the absence of an integrative view of data with IT and business processes, the resistance of employees, or a lack of resources to tackle the transformation towards a data-centric organization. This situation contrasts with the growing dependence that tourism firms have on Big Data and the provision of services that are complex and of a multidimensional nature.</p>
+<p>When an organization is new to Big Data, it typically does not have staff with adequate Big Data management skills, its data management infrastructure is poor, and it does not have the processes required to acquire new types of data (Russom, 2013). Firms need to start increasing their efforts to train their employees and hire external staff who can help, usually consultants. Getting started is always tricky, but once serious Big Data efforts begin and the organization starts to move along the learning curve, there needs to be as smooth a flow of communication as possible between the business leaders and data and IT specialists. The choice of relevant data, the methods of data collection, processing, and analysis, and the means for interpreting and disseminating knowledge in the organization will be most effective when there is a fruitful dialogue between those who know about business operations and those who know about data and IT. A Big Data strategy that includes a data governance framework will surely contribute to managing Big Data projects more effectively and efficiently.</p>
+<p>As regards the challenges of business models, firms that are capitalizing on the use of Big Data and analytics have realized that the key is to integrate Big Data as deeply as possible into their business models. This is the fastest and most efficient way to ensure that Big Data and analytics consolidate in the organization and that improvements are made to the competitiveness and performance of the firm. It is certainly important to strengthen data management infrastructures and skills as Big Data becomes more relevant, otherwise the firm will end up delaying the use of Big Data and not creating value for the business (Russom, 2013). However, focusing entirely on adding more ICT resources and capabilities alone will not help the organization start extracting new insights from its databases. Big Data just doesn’t work like that. Firms that accept that data is a core asset of their business model are clear about their objectives and integrate state-of-the-art information and analytics as a critical component of all important decisions (Morabito, 2015). In this same sense, business leaders must answer questions such as: How far is the firm willing to go? How is Big Data going to improve business performance? What should the firm focus on?</p>
+</section>
+<section id="financial-and-business-challenges" class="level3" data-number="10.5.3">
+<h3 data-number="10.5.3" class="anchored" data-anchor-id="financial-and-business-challenges"><span class="header-section-number">10.5.3</span> Financial and business challenges</h3>
+<p>The challenges in this category are related to the costs that must be incurred and the investments that tourism firms must make to address Big Data and analytics. Some of the most relevant are the following:</p>
+<ul>
+<li><p>Hesitation from many owners and managers about the Return on Investment (ROI), since they fear that investments in Big Data and analytics are very high, and it is difficult to obtain an acceptable return on them.</p></li>
+<li><p>Concern about the high costs that firms must incur, both in terms of new hardware and software costs, as well as the “silent” (hidden) costs that are inherent in far-reaching cultural and organizational transformation processes whose results are uncertain.</p></li>
+<li><p>The need to develop a new business model if the firm really wants to take advantage of the full potential of Big Data and analytics. These new models must either focus entirely on the exploitation of data or look for hybrid models that combine the exploitation of the opportunities offered by data and intelligence with the firm’s traditional sources of income.</p></li>
+</ul>
+<p>In general, owners and managers are afraid to invest in Big Data and analytics initiatives due to the perceived high risks of failure and the belief that the organization do not have the resources, capabilities, and skills needed to succeed in the transformation towards a data-centric model. However, tourism firms very often forget that the true cost associated with the implementation and adoption of a new paradigm, such as Big Data and the data-driven model, is not to acquire new hardware and software to continue doing basically the same things, but to achieve what is known as a “disintermediation effect”, that is, a reduction in the (transaction) costs that are generated from the adoption of the new paradigm together with the competitive advantages that arise when replacing the old business rules with new ones.</p>
+</section>
+<section id="regulatory-and-security-challenges" class="level3" data-number="10.5.4">
+<h3 data-number="10.5.4" class="anchored" data-anchor-id="regulatory-and-security-challenges"><span class="header-section-number">10.5.4</span> Regulatory and security challenges</h3>
+<p>Advances in smart technologies are bringing great benefits to businesses, users, and consumers in general, but they also bring significant threats to privacy and data security that may be more damaging than expected. The fact that different regulations concur in the same data, together with the scope of the different national legal frameworks, make Big Data management even more complex. Therefore, firms carrying out smart transformation must have a good understanding of the regulatory frameworks that are applicable and the implications that there are for the technical, strategic, and governance dimensions of Big Data (Kemp, 2014). Although these concerns do not yet reach the importance of other challenges, it is realistic to say that as the adoption of Big Data and data analytics increases, they will gain in relevance.</p>
+<p>Data privacy issues are currently a source of great concern to firms of all kinds, consumers, users, governments, and the academic community around the world. So, what can tourism firms do to solve Big Data privacy issues?</p>
+<p>Traditional access control and data storage mechanisms to ensure privacy have proven insufficient with the growing demand for more stringent privacy requirements in the era of Big Data. Data privacy issues affect not just a few in the organization but encompass all those involved in the data life cycle, including those who collect the data, those who perform data mining, and those who use the information to generate knowledge and make decisions. Therefore, it is essential for firms to have much more precise and granular data storage and access control mechanisms that guarantee all aspects of privacy. The fact that each country has its own data privacy regulations makes it difficult to have universal data protection standards, sometimes leading to unethical behavior in which the privacy of consumers is violated, and the data is resold to intermediaries (resulting in higher data cost for firms). Moreover, as firms increasingly operate their data in cloud environments, there is the additional problem of having to guarantee the privacy of data in the cloud, which makes everything even more complex.</p>
+<p>Preserving information privacy is a major concern, but providing security is another big issue that tourism firms urgently need to consider carefully. Data security has always been a problem for business, however, in recent times, with the exponential growth of data volume and the growing threat of cybercriminals, the problem has taken on a new dimension. Firms around the world face significant information security issues that are both specific to each organization and to the channels through which information flows massively (e.g., social media, mobile apps, etc.). Additionally, the amount of sensitive information that needs to be protected in tourism is constantly increasing, creating ongoing security challenges (Larson &amp; Chang, 2016; M. Singh et al., 2018).</p>
+<p>The conventional security measures used until now to protect static and small-scale data are no longer suitable for Big Data. This poses a huge challenge for firms that don’t have enough time and resources to deal with security issues. One of the biggest security risks is the privacy leak, which has caused severe trouble to many firms. Data integrity issues are another major concern. The veracity and value of Big Data can be compromised if the firm is not equipped with a robust process capable of ensuring data integrity and disaster recovery. Furthermore, Big Data poses significant technical challenges associated with virtual machine backup, multi-site replication, as well as data governance.</p>
+<p>Those firms that take data security seriously work to secure the entry points to information systems, so they can detect cybercriminal attacks and alert users before they even happen. These firms use advanced information encryption techniques to protect access to their data and frameworks that include identity management, firewalls, and encryption. However, despite all the efforts made by firms and the fact that there is a thriving multi-million dollar industry focused on developing solutions that protect the information in the hands of organizations and mitigate the damage caused by cybercrime, the reality is that current technologies cannot fully address all security issues. Therefore, a coordinated effort between firms, the technology industry, and governments is necessary to take administrative and legislative measures that regulate the privacy and security of all parties interested in the use of smart technologies. The introduction of the General Data Protection Regulation (GDPR) in Europe in 2016 is an example of how the regulatory framework can determine how Big Data is collected, processed, and made available.</p>
+</section>
+<section id="socio-ethical-challenges" class="level3" data-number="10.5.5">
+<h3 data-number="10.5.5" class="anchored" data-anchor-id="socio-ethical-challenges"><span class="header-section-number">10.5.5</span> Socio-ethical challenges</h3>
+<p>Among the most relevant socio-ethical challenges of Big Data are the substitution of work by technology and the growing intervention of data and automatic processing capacity through robotics and artificial intelligence in the development of society (Samara et al., 2020). In the case of work, the challenge is not only in the effects that machines can have in replacing humans with robots and intelligent machines, but in how we humans can use them to increase our skills and capabilities. Despite the great potential that the latter presents, the fear of job loss due to the threat of machines is one of the main social concerns. For this reason, this is a field that continues to spark heated debates and in which researchers strive to find an optimal solution that allows human–machine and human–robot peaceful coexistence for the benefit of humanity.</p>
+<p>Another concern that is relevant from a socio-ethical perspective is the acceptance by modern societies of the growing role that Big Data, data analytics, and artificial intelligence applications are starting to play in the workflows and tasks of our daily life. According to some authors, the very acceptance of robotics (Murphy et al., 2017) can make users feel more and more isolated, which would affect the uses and customs of consumers and their behavior patterns.</p>
+<p>In the case of tourism, it is worth asking: to what extent is the use of these smart technologies aimed at improving the experience of consumers who enjoy their vacations and not at replacing humans with robots? The answer is that there is evidence that demonstrates both intentions, although it is still early to take sides with one or the other. Only time will tell how we managed to use these tools that changed our lives forever.</p>
+</section>
+</section>
+<section id="discussion-questions" class="level2" data-number="10.6">
+<h2 data-number="10.6" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">10.6</span> Discussion Questions</h2>
+<ul>
+<li><p>What levers of change are accelerating (or delaying) the implementation of Big Data in tourism firms? What organizational changes are necessary to optimize the performance of Big Data in tourism firms?</p></li>
+<li><p>What is the set of skills and capabilities (business, analytical, and technical) required to handle Big Data successfully? Do tourism firms have the necessary skills to handle Big Data? What role does education and training play in building these new capabilities?</p></li>
+<li><p>How do the employees of tourism firms perceive the Big Data phenomenon? Are they preparing at the speed and with the skills required to tackle the challenge?</p></li>
+<li><p>What are the critical success factors to increase the performance of Big Data in tourism firms?</p></li>
+<li><p>What kind of policies and regulations could be adopted to deal effectively with data security, privacy, and governance issues? And to improve democratic access to data by stakeholders in the tourism ecosystem?</p></li>
+<li><p>How is Big Data impacting the existing business models of tourism firms?</p></li>
+<li><p>What are the complementary investments that tourism firms must make to exploit the potential of Big Data? What is the cost of not adopting Big Data for a modern tourism firm?</p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./9_understanding.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Understanding Data</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./11_data_analytics.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Data Analytics</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>

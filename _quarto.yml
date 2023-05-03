@@ -11,7 +11,7 @@ book:
   favicon: cover.png
   #search: true
   twitter-card: true
-  site-url: https://example.com
+  site-url: https://managingtourism.netlify.app
   repo-url: https://github.com/fj-navarro/frontiers_book
   repo-actions: [edit, issue]
   #downloads: [pdf, epub]
