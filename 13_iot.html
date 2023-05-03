@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.290">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Managing the Smart Revolution in Tourism Firms (2nd ed) - 13&nbsp; Internet of Things</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./14_cybersecurity.html" rel="next">
+<link href="./12_ai.html" rel="prev">
+<link href="./cover.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+
+
+<meta name="twitter:title" content="Managing the Smart Revolution in Tourism Firms (2nd ed) - 13&nbsp; Internet of Things">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://example.com/img/fig16.png">
+<meta name="twitter:image-height" content="2120">
+<meta name="twitter:image-width" content="3330">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./part_2_smart_technologies.html">Part 2: Smart Technologies</a></li><li class="breadcrumb-item"><a href="./13_iot.html"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Internet of Things</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Managing the Smart Revolution in Tourism Firms (2nd ed)</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/fj-navarro/frontiers_book" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About the Open Edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface to the Second Edition</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./1_call_to_action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">A Call to Action</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2_need_for_book.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The Need for This Book</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3_who_should_read.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Who Should Read This Book</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./4_how_to_use.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">How to Use This Book</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part_1_intro_smart_firms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part 1: Introduction to Smart Firms</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_fundamentals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Fundamentals of the Smart Firm</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6_smartization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Smartization and Digital Transformation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./7_digitalization.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Tourism and Digitalization</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./8_data_driven.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Towards the Data-Driven Organization</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part_2_smart_technologies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part 2: Smart Technologies</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./9_understanding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Understanding Data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10_big_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Big Data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./11_data_analytics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Data Analytics</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./12_ai.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Artificial Intelligence</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./13_iot.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Internet of Things</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./14_cybersecurity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Cybersecurity</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./15_enabling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Enabling Technologies</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part_3_practices.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part 3: Management Practices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./16_management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Introduction to Smart Management</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./17_transformative.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Managing Transformative Change</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./18_org_agility.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Organizational Agility</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./19_data_driven_agility.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Data-Driven Agility</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./20_leadership.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Smart Leadership</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./21_open_innovation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Open Innovation</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./part_4_whats_next.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part 4: What's Next</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./22_framework.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Smart Transformation Framework</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./23_future.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">The Future of Smartization</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">References</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#concept-of-iot" id="toc-concept-of-iot" class="nav-link active" data-scroll-target="#concept-of-iot"><span class="header-section-number">13.1</span> Concept of IoT</a>
+  <ul class="collapse">
+  <li><a href="#iot-vs-ioe" id="toc-iot-vs-ioe" class="nav-link" data-scroll-target="#iot-vs-ioe"><span class="header-section-number">13.1.1</span> IoT vs IoE</a></li>
+  </ul></li>
+  <li><a href="#how-is-the-iot-inside" id="toc-how-is-the-iot-inside" class="nav-link" data-scroll-target="#how-is-the-iot-inside"><span class="header-section-number">13.2</span> How is the IoT Inside?</a></li>
+  <li><a href="#iot-data-and-processes" id="toc-iot-data-and-processes" class="nav-link" data-scroll-target="#iot-data-and-processes"><span class="header-section-number">13.3</span> IoT Data and Processes</a></li>
+  <li><a href="#creating-value-from-iot" id="toc-creating-value-from-iot" class="nav-link" data-scroll-target="#creating-value-from-iot"><span class="header-section-number">13.4</span> Creating Value from IoT</a></li>
+  <li><a href="#iot-technologies" id="toc-iot-technologies" class="nav-link" data-scroll-target="#iot-technologies"><span class="header-section-number">13.5</span> IoT Technologies</a>
+  <ul class="collapse">
+  <li><a href="#iot-hardware" id="toc-iot-hardware" class="nav-link" data-scroll-target="#iot-hardware"><span class="header-section-number">13.5.1</span> IoT hardware</a></li>
+  <li><a href="#iot-software" id="toc-iot-software" class="nav-link" data-scroll-target="#iot-software"><span class="header-section-number">13.5.2</span> IoT software</a></li>
+  <li><a href="#iot-communications" id="toc-iot-communications" class="nav-link" data-scroll-target="#iot-communications"><span class="header-section-number">13.5.3</span> IoT communications</a></li>
+  </ul></li>
+  <li><a href="#iot-applications" id="toc-iot-applications" class="nav-link" data-scroll-target="#iot-applications"><span class="header-section-number">13.6</span> IoT Applications</a>
+  <ul class="collapse">
+  <li><a href="#consumer-iot" id="toc-consumer-iot" class="nav-link" data-scroll-target="#consumer-iot"><span class="header-section-number">13.6.1</span> Consumer IoT</a></li>
+  <li><a href="#industrial-iot" id="toc-industrial-iot" class="nav-link" data-scroll-target="#industrial-iot"><span class="header-section-number">13.6.2</span> Industrial IoT</a></li>
+  </ul></li>
+  <li><a href="#challenges-of-iot" id="toc-challenges-of-iot" class="nav-link" data-scroll-target="#challenges-of-iot"><span class="header-section-number">13.7</span> Challenges of IoT</a>
+  <ul class="collapse">
+  <li><a href="#iot-big-data" id="toc-iot-big-data" class="nav-link" data-scroll-target="#iot-big-data"><span class="header-section-number">13.7.1</span> IoT Big Data</a></li>
+  <li><a href="#privacy-and-trust" id="toc-privacy-and-trust" class="nav-link" data-scroll-target="#privacy-and-trust"><span class="header-section-number">13.7.2</span> Privacy and trust</a></li>
+  <li><a href="#security" id="toc-security" class="nav-link" data-scroll-target="#security"><span class="header-section-number">13.7.3</span> Security</a></li>
+  <li><a href="#regulation" id="toc-regulation" class="nav-link" data-scroll-target="#regulation"><span class="header-section-number">13.7.4</span> Regulation</a></li>
+  <li><a href="#business-models" id="toc-business-models" class="nav-link" data-scroll-target="#business-models"><span class="header-section-number">13.7.5</span> Business models</a></li>
+  </ul></li>
+  <li><a href="#discussion-questions" id="toc-discussion-questions" class="nav-link" data-scroll-target="#discussion-questions"><span class="header-section-number">13.8</span> Discussion Questions</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/fj-navarro/frontiers_book/edit/main/13_iot.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/fj-navarro/frontiers_book/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Internet of Things</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p>The accelerated changes in internet applications and technology are reflected in the development of the so-called Internet of Things (IoT), which describes a global network of connected and integrated devices with ubiquitous computing capabilities. Similar to the profound transformation that the internet has undergone, led first by infrastructure (e.g., fiber optics, routers, Ethernet cables, etc.) and then by business models, the same is happening today with the IoT. Firms and the technology industry are devoting a huge amount of resources to the design and implementation of infrastructure (e.g., sensors, gateways, base stations), but in a few years the focus will radically change towards business opportunities.</p>
+<p>The key idea behind the IoT is to interconnect physical “things” through digital communication networks (e.g., via Wi-Fi, Bluetooth, Ethernet) to allow the “things” to exchange information with each other and help the user to make smart decisions for themselves. This ability of the IoT to convert each physical object into a potential digital artifact, a process known as “leak” or “liquification” of information resources, means the transformation of a physical object into a series of information resources that characterize it, on which it is possible to act (Ng &amp; Wakenshaw, 2017). In an IoT context, each physical object is associated with a set of digital data (current and historical) that contains information about its physical properties, the origin, ownership, and the environment, which can lead us to imagine a world in which each physical object can be part of the internet.</p>
+<p>IoT ecosystems are going to be central to Big Data collection. In fact, it is expected that the main source of Big Data in the coming years will be IoT systems, followed by data from humans and robots and AI applications (Kaivo-Oja et al., 2015). Through the IoT, firms will be able to track, communicate with “things”, and monitor them to exploit their status. But even more important is that due to the programmability of “things” it will be possible for firms to add new instructions and modify their behavior throughout the life cycle of things (Fig. 13.1). Ultimately, this ability for everyday “things” to think and interact will be the driver of the IoT, unleashing limitless opportunities for tourism firms, most positive and some negative. Therefore, the IoT represents a new paradigm that has the potential to revolutionize the way we live and work thanks to the vast amount of data and services that flow from the interactions between a large number of heterogeneous connected devices (Palattella et al., 2016).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\img/fig16.png" class="quarto-discovered-preview-image img-fluid figure-img" width="600"></p>
+<p></p><figcaption class="figure-caption">Fig. 13.1. IoT operations framework. Source: own elaboration based on Kaivo-Oja et al.&nbsp;(2015)</figcaption><p></p>
+</figure>
+</div>
+<section id="concept-of-iot" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="concept-of-iot"><span class="header-section-number">13.1</span> Concept of IoT</h2>
+<p>One of the first to use the term IoT was MIT technologist Kevin Ashton, who explained how the IoT could be created by adding radio frequency identification and other sensors to everyday objects (Ashton, 2009). Over time, the term IoT has evolved to refer to a “network of entities that are connected through any form of sensor, enabling these entities, which we term as internet-connected constituents, to be located, identified, and even operated upon” (Ng &amp; Wakenshaw, 2017). Today, the IoT is considered one of the technologies that is going to lead the way to the Fourth Industrial Revolution and that interconnected physical devices will automate skills and tasks, significantly impacting the way consumers, businesses, and governments interact (Shim et al., 2019).</p>
+<p>The IoT encompasses a network of physical objects including anything from a smart watch to a critical infrastructure control system. Each object in turn consists of some type of sensor (e.g., temperature, light, movement, etc.) or actuator (e.g., screen, sound, light, motor). Other components of the IoT ecosystem are the embedded technologies to communicate with and sense the surrounding environment and interact with its internal states, such as computational resources to process the data detected locally or remotely, and a shortrange (Bluetooth, ZigBee, radio-frequency identification (RFID)) or long-range (internet) means of communication to transmit the data.</p>
+<p>IoT devices detect or read the environment in which they are embedded without human intervention. The data so detected is then processed and analyzed to acquire information and knowledge, which is distributed to those who will decide whether to take any action. Indeed, the essence of the IoT is to make any information available to anyone at any time. This relegates the traditional separation between physical and digital objects to the past (Fleisch et al., 2015), and merges both worlds to create smart ubiquitous services that offer endless opportunities for business and society.</p>
+<p>But, one may wonder, why do we need to connect all “things”? The answer seems evident: the IoT is a big step forward towards automating processes that improve centralized control and management (Pramanik et al., 2018). The automation provided by the IoT can reduce operational costs compared to manual tasks, by automatically controlling and managing many independent devices that are connected and communicate with each other. The number and variety of communication technologies is currently so big that the IoT encompasses a great diversity of application domains and almost infinite possibilities for communication and interaction. This is being made possible, among other things, by the reduction in broadband internet costs, advances in wireless network technologies, access to the cloud, the reduction in prices of sensors with detection and communication capabilities, and the arrival of 5G cellular systems. Some forecasts, such as those of the Swedish technology company Ericsson, suggest that there will be around 29 billion connected devices by 2022, of which around 18 billion will be related to the IoT. This will generate trillions of dollars of value for businesses and national economies. The enterprise IoT platform market alone is estimated to reach, according to consulting firm Gartner, US$7.6 billion in 2024 with a compound annual growth rate of 31%, driven by growth in on-premises and cloud solutions in all industries.</p>
+<p>For many specialists, the IoT represents the next step in the computer revolution, which will be based on the incorporation of information and communication technologies in home machines, in the workplace, and in a wide range of industrial processes (De Saulles, 2016). The massive interconnection of devices and the incorporation of network sensors in everyday objects will provide tourism firms with unimaginable amounts of data. Moreover, AI and machine learning applications to analyze and make sense of this data will lead to a new wave of innovation in business processes. Together, the IoT, Big Data, and AI will eventually drive a radical reshaping of industries and business models by providing new insights into how business ecosystems and customer relationships work, unlocking new revenue streams through unprecedented use cases. Ultimately, new firms will emerge that are able to harness and capitalize on IoT data, while established firms will need to adapt the way they operate or face extinction, just as they did when steam, electricity, or the internal combustion engine came along and the old ways of working became obsolete.</p>
+<section id="iot-vs-ioe" class="level3" data-number="13.1.1">
+<h3 data-number="13.1.1" class="anchored" data-anchor-id="iot-vs-ioe"><span class="header-section-number">13.1.1</span> IoT vs IoE</h3>
+<p>The IoT is built on the data created by things. This is a significant difference from how the internet has developed up to now, mainly based on data created by people. Building on this idea, some big companies in the technology industry (including CISCO and Qualcomm) have adapted their view of the IoT and used the term “Internet of Everything” (loE) instead. Unlike the IoT, which is made up of “things”, the IoE encompasses four pillars: people, data, processes, and things (Fig. 13.2). In the IoE, devices are permanently connected to the internet, including machine-to-machine (M2M), person-to-machine (P2M), and person-to-person (P2P) systems. This makes it possible for business and industrial processes to be put at the service of improving people’s lives.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\img/fig17.png" class="img-fluid figure-img" width="600"></p>
+<p></p><figcaption class="figure-caption">Fig. 13.2. Internet of Everything. Source: own elaboration based on Miraz et al.&nbsp;(2015)</figcaption><p></p>
+</figure>
+</div>
+<p>For IoE advocates, the big issue is not so much “things”, but the connections between things, people, processes, and data, which is what really creates value. They believe that the growth of many organizations in the Internet Age occurs in waves that are “S” shaped, such that with each successive wave new features and greater network connectivity are added, eventually leading to qualitative and quantitative leaps in the number and variety of opportunities (and of risks) and firms reaching the IoE.</p>
+<p>The IoE offers the potential to extract and analyze real-time data from the millions of sensors connected to IoT platforms that can then be used to optimize human-centric automated processes. For example, the IoE can be used to achieve public policy objectives, environmental sustainability, economic, and social objectives, etc. The combination of the IoE with Big Data processing in urban spaces is another example that shows great potential. As cities become “smart cities” they will increase their use of the information and knowledge they generate and will be able to address highly specific problems and challenges that citizens have (Miraz et al., 2015).</p>
+<p>It must be noted that the IoT is somewhat different from the Internet of People (IoP). The latter uses a PC, tablet, or smartphone and runs apps that connect to a remote server to do something (i.e., browse the web, send an email, shop online, watch video). Unlike IoP, IoT is based on devices that can sense events on their own and, using analytics and business intelligence, respond faster and better than humans. The adjustments and adaptations of those responses are made without human intervention.</p>
+</section>
+</section>
+<section id="how-is-the-iot-inside" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="how-is-the-iot-inside"><span class="header-section-number">13.2</span> How is the IoT Inside?</h2>
+<p>To fully understand what the IoT is like on the inside, it is first important to understand how its assemblage works, i.e., how connected objects/devices work together and how the ability to do things at a systemic level emerges that no object could do on itself (Hoffman &amp; Novak, 2015). The IoT is made up of a wide variety of heterogeneous sensors and components, different communication protocols, and processing technologies that resemble the modules of an architecture and interact with each other in three different ways:</p>
+<ul>
+<li><p>Between one component and another (i.e., within the assemblage).</p></li>
+<li><p>Between one component and the assemblage (i.e., a part with the whole).</p></li>
+<li><p>Between one assemblage and another (i.e., between assemblages).</p></li>
+</ul>
+<p>Assemblages are not fixed but are constantly changing as new components or modules can be added or removed (Ng &amp; Wakenshaw, 2017), thus forming a network-like structure that is designed to connect whatever “thing” may be identified as an object, capture its data, and process and distribute the information anytime, anywhere (Ma et al., 2013).</p>
+<p>As the IoT is a very broad concept and its components are so varied and heterogeneous, there is no standard and uniform architecture that defines it. This often causes interoperability issues when it comes to integrating all the different types of technologies. To address this problem, the IoT architecture can best be seen as an intelligent multi-layered system that enables the identification, positioning, tracking, monitoring, and management of devices, and the data generated by them. More specifically, architecture based on four layers is the most common in the IoT, as shown in Fig. 13.3 (Attaran, 2017; Ma et al., 2013):</p>
+<ul>
+<li><p><strong>Sensing layer</strong> (also known as layer of things) is the layer that connects the physical and cyber worlds. This layer contains the sensor-like devices (things) that collect the information, such as RFID readers, infrared sensors, GPS systems, monitoring cameras, etc. and actuator type things. Through the sensing layer, the IoT assemblage achieves the ubiquitous perception that distinguishes it from other networks, as well as the real-time monitoring and management of the behavioral properties of the objects that comprise it.</p></li>
+<li><p><strong>Network layer</strong> (also known as communication layer, or gateway and network layer) is the layer where things connect (i.e., the medium through which the data collected by devices is transmitted to higher layers for further analysis and processing). This layer consists of an IoT gateway made up of an embedded operating system, signal processors, microcontrollers, and gateway networks like LAN (Local Area Network), WAN (Wide Area Network), Wi-Fi, etc. The gateways route the data that comes from the sensor and the network layers and moves it to the next layer, which is the service management layer. This layer has a large capacity to store data from sensors, RFID tags, etc. and delivers consistently reliable performance across public, private, and hybrid networks.</p></li>
+<li><p><strong>Service management layer</strong> (middleware layer, or data processing layer) is a crucial part of the IoT architecture, as it is responsible for carrying out data and text mining, information processing and analysis, information security, device management, and providing service interfaces for user applications. This data management process is necessary to extract information from the huge amount of raw data collected by sensor devices and to generate a valuable outcome.</p></li>
+<li><p><strong>Application layer</strong> is an interface between the end user and the general IoT architecture that builds on top of the three lower layers to provide end-user IoT applications in various domains. These applications can be as simple as turning off an electrical switch or as complex as monitoring critical infrastructure.</p></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\img/fig18.png" class="img-fluid figure-img" width="600"></p>
+<p></p><figcaption class="figure-caption">Fig. 13.3. Four-layer IoT architecture. Source: own elaboration based on Ma et al.&nbsp;(2013) and Fleisch (2015)</figcaption><p></p>
+</figure>
+</div>
+<p>One thing to keep in mind is that IoT layers cannot be created or function independently of one another. Therefore, an IoT solution is not the mere addition of layers, but an integration process that extends to the physical level, and where the whole is greater than the sum of its parts. Furthermore, a well-structured IoT architecture is the foundation that will help firms create innovative services. For this, it is important that the IoT architecture is designed considering the existing technological infrastructure, its scalability, as well as low energy consumption and cost-effective start-up, maintenance, and updating (Ghule &amp; Sakhare, 2017).</p>
+<p>Most IoT platforms are designed to support a wide variety of applications and services, but they are different in performance, security, customization, ease of use, and management (Lee, 2019). This is why choosing an IoT platform is not easy and tourism firms need to consider things like scaling and cloud access options, disaster prevention and recovery plans, security and data backup measures, communication protocols and standards, and the type of technical support offered. In addition, firms must decide whether to implement private IoT infrastructure, third-party IoT infrastructure, or a hybrid (private and third-party) IoT. Furthermore, owners and managers will need to assess and decide on the IoT infrastructure (i.e., total cost of the infrastructure related to hardware, software, labor, and maintenance), and on the main qualitative elements, such as the intangible benefits and risks, the level of customization required, and the organizational skills required.</p>
+</section>
+<section id="iot-data-and-processes" class="level2" data-number="13.3">
+<h2 data-number="13.3" class="anchored" data-anchor-id="iot-data-and-processes"><span class="header-section-number">13.3</span> IoT Data and Processes</h2>
+<p>Data management in the IoT involves data collection, processing, storage, and analysis processes. In general, IoT data shares these five distinct characteristics (Ma et al., 2013):</p>
+<ul>
+<li><p><strong>Heterogeneity:</strong> IoT data is of different types and has very different properties that are used to describe the state of “things”. IoT data ranges from integers to characters, to semi-structured and unstructured data (e.g., audio, video, images).</p></li>
+<li><p><strong>Inaccuracy:</strong> Data inaccuracy is one of the most limiting factors affecting the adoption of IoT. For example, in the case of RFID systems, there are studies that show that only between 60% and 70% of the data can be used, since most of it is unreliable or unreliable. This situation is repeated with other data sources and technologies, which creates difficulties for the direct use of data.</p></li>
+<li><p><strong>Massive data in real time:</strong> The connection of millions of devices and the communication between them through networks generate a huge volume of heterogeneous data that flows uninterruptedly, at high speed, and in real time. Consequently, processing IoT data requires scalable and strong storage, classification, and value creation capabilities.</p></li>
+<li><p><strong>Implicit semantics:</strong> IoT data is data extracted from digital representations of objects with weak and low-level semantics, since it has little or nothing to do with human perception. For firms to build applications up to the level of smart services, data semantics must be abstracted from the mass of low-level data using an event-driven perspective.</p></li>
+</ul>
+<p>In accordance with the characteristics described above, the use of IoT data requires some key processes to be carried out as shown in Fig. 13.4 (Ma et al., 2013).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\img/fig19.png" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Fig. 13.4. IoT data processes. Source: own elaboration based on Ma et al.&nbsp;(2013)</figcaption><p></p>
+</figure>
+</div>
+<ul>
+<li><p><strong>Data cleansing:</strong> It focuses on overcoming the lack of reliability that plagues IoT data, which is often incomplete, erroneous, and duplicate. Data cleansing is an essential step for the correct analysis and interpretation of IoT data. Cleansing data is a real challenge for most organizations given the enormous volume of data generated in IoT, the variety of sources and errors that exist, and the need to process it in real time. Once the IoT data is clean, it can be put to use.</p></li>
+<li><p><strong>Event processing:</strong> Clean but still unprocessed data only provides very simple information that cannot be used to support business processes and management decision-making. Firms need to transform this raw data into a high-level business logic that is understandable by users. This is achieved by applying event processing techniques, such as CEP (complex event processing) semantics, which is very similar to the tasks performed by the human brain when trying to recognize patterns in the information it receives. CEP abstracts information by aggregating low-level events into high-level events that make sense to a user and can be responded to.</p></li>
+<li><p><strong>Data analysis and storage:</strong> Once the data has a business logic, the next step is to analyze, store, compress, and exchange it. Data must be able to be shared between different IoT devices and systems; however, this is not always possible due to platforms that are heterogeneous. In this case, it becomes necessary to have a multi-platform information exchange language (similar to XML) that covers different application domains.</p></li>
+</ul>
+</section>
+<section id="creating-value-from-iot" class="level2" data-number="13.4">
+<h2 data-number="13.4" class="anchored" data-anchor-id="creating-value-from-iot"><span class="header-section-number">13.4</span> Creating Value from IoT</h2>
+<p>IoT ecosystems represent an opportunity for business owners and managers to go beyond traditional ways of doing business and create new sources of value. From an internal point of view, owners and managers should see the IoT as an opportunity to reach new levels of organizational efficiency and effectiveness and improve innovation processes, thus generating long-term value for the firm (Lu et al., 2018). By enabling “things” with the ability to be identified, monitored, and encrypted, it is possible to increase the speed, accuracy, convenience, and quality of transactions and processing of products and services.</p>
+<p>But, which firms can benefit most from the IoT? Surely it will be those more advanced firms in the data value chain, which have already captured data that requires analysis. Actually, most Big Data analytics vendors already offer solutions to generate new revenue streams from the IoT, such as IBM Watson IoT platform, Google DeepMind, AWS, and Microsoft Azure.</p>
+<p>Tourism firms should understand the potential of the IoT for business process management, technology strategy and management and, ultimately, for the design of long-term value creation strategies. They should learn that the main mechanism by which IoT technologies create value is through the generation of refined real-world information, on which they can base the optimization of technological and business processes (Del Giudice, 2016). However, more evidence is needed on how the IoT is changing the way firms manage their core business processes and the impact on knowledge flows, innovation, and competitiveness. A recent survey of 500 business executives who had led IoT initiatives in their organizations asked them to identify which functions were top priorities for IoT (Insights Team, 2017 as cited in Nord et al., 2019). Although the findings revealed that the IoT is affecting many parts of organizations, three areas were identified as priorities:</p>
+<ol type="1">
+<li><p>The first priority area is the customer experience. This is a key area of business management in which other authors agree that the IoT can help in several ways (Gillet, 2018).</p>
+<p>⚬ Monitoring and improving customer experience through the firm’s value offerings.</p>
+<p>⚬ Personalizing the firm’s interaction with each customer.</p>
+<p>⚬ Improving and learning over time through automatic updates of products and services.</p></li>
+<li><p>The second priority is measuring and monitoring the performance of the firm in real time, so that IoT can support financial decision-making and provide a more holistic view of the firm that complements the data generated by accounting and financial information systems.</p></li>
+<li><p>The third priority area is tracking and managing firm assets, such as computing devices, tools, vehicles, machines, etc. By using IoT sensors attached to assets, firms can actively track information about their location and condition without the need for human intervention.</p></li>
+</ol>
+<p>The IoT offers a host of hidden opportunities to create value from the huge streams of data it handles. Unlike conventional data sources, IoT devices generate huge amounts of data in real time, allowing owners and managers to quickly act on business processes and service delivery based on the expectations and conditions of the market. Firms can leverage the Big Data resulting from the IoT to perform valuable analytics on consumer behavior, efficiency, and effectiveness of business processes, and the performance of products and services, which in turn can support strategic business planning.</p>
+<p>Production systems incorporating IoT technologies can reveal operational inefficiencies in the organization of human work that can be remedied by leveraging the refined insights that the IoT generates (Sestino et al., 2020). The IoT can be used to monitor production, avoid downtime, and rapidly adapt production methods, all of which can make business processes more effective and efficient, speed up cycles for creating new products and services, and reduce costs.</p>
+<p>In the field of services, IoT devices such as “Voice Assistant” can be integrated into traditional services (i.e., hotel room service) to improve their planning and delivery quality. Furthermore, smart products and services imbued with IoT can provide insights into how they are used by consumers, allowing firms to quickly adapt to real market needs and increase productivity. Owners and managers can also use IoT data from past events to identify trends and simulate future scenarios using predictive analytics machine learning techniques and process automation. In addition, when large amounts of data about employee activities are available, firms can use that information to better organize human work, simplifying employee effort and enabling customer self-service, which can increase trust and result in streamlined operations and staff empowerment.</p>
+<p>IoT technologies are a great opportunity to create stronger bonds with customers and improve consumption experiences. As going online has become the norm, people have become accustomed to consuming personalized services at high speed. Features built into IoT devices, such as voice commands, can satisfy these desires and encourage consumers to think of their devices (e.g., smart watches, smartphones, etc.) as assistants during pre- and post-purchase activities rather than just tools. Promotional strategies, advertisements, and more customer-friendly direct marketing campaigns based on geomarketing and geolocation can be activated thanks to data extracted from IoT devices and applications. In fact, IoT data increases dramatically when organizations consider all the touchpoints they have (e.g., websites, screens, interactive totems, voice assistants, etc.). With all this information at their fingertips, firms can provide value offerings that are based on highly personalized business strategies. These opportunities are further expanded when firms consider the use of AI technologies.</p>
+<p>Additionally, the intellectual capital of firms in the form of knowledge, information, and ideas is a crucial element to create value from the IoT. This is because IoT technologies are changing the way firms acquire and manage knowledge inside and outside organizations. Firms should exploit the IoT through knowledge management systems that incorporate advanced ICT and explore external sources of knowledge, which in turn would translate into better and innovative performance. This will drive firms to adopt an open approach to fostering knowledge flows and improving their internal knowledge management capabilities, both of which are prerequisites for increasing the firm’s capacity for innovation (Santoro et al., 2018). When adopting an open innovation approach, firms will need to establish collaborations with other players in the tourism ecosystem to acquire new knowledge and create new value from it. Those firms that first recognize this challenge and approach the transformation process quickly and effectively will be able to gain a competitive edge.</p>
+</section>
+<section id="iot-technologies" class="level2" data-number="13.5">
+<h2 data-number="13.5" class="anchored" data-anchor-id="iot-technologies"><span class="header-section-number">13.5</span> IoT Technologies</h2>
+<p>IoT technologies offer the potential to change the tourism marketplace by helping firms develop compelling business strategies. At the organization level, the value created by IoT systems and applications is critical to their adoption and the opportunity to create a new connected world with great potential for firms, consumers, and governments. But new problems and challenges inevitably arise.</p>
+<p>One is that IoT technologies have different and often competing standards, which leads to a fragmented market for IoT products and services. The need for a market standard is key because it would lead to network effects (i.e., increasing value to users as more members join), but also because end users, be they home consumers or firms, will continue to be reluctant to invest in systems that they fear will be compromised, become obsolete, or simply are not able to communicate with other IoT devices. It is expected that this trend will normalize in the medium term and that some of these standards (and industry players) will prevail over the rest and begin to dominate the IoT market. Next in this section, the technologies that are playing a more relevant role in the development of the IoT are described (Fig. 13.5).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src=".\img/fig20.png" class="img-fluid figure-img" width="600"></p>
+<p></p><figcaption class="figure-caption">Fig. 13.5. IoT technologies. Source: own elaboration based on De Saulles (2016)</figcaption><p></p>
+</figure>
+</div>
+<section id="iot-hardware" class="level3" data-number="13.5.1">
+<h3 data-number="13.5.1" class="anchored" data-anchor-id="iot-hardware"><span class="header-section-number">13.5.1</span> IoT hardware</h3>
+<p>At the core of IoT technologies is the link between the physical and virtual worlds. Critical to this is having the right hardware, which can be sensors, microprocessors, RFID chips, and antennas, as well as full-fledged devices like fitness trackers, thermostats, lighting, smart meters, door locks, etc. that are embedded in consumer environments, smart cities, or smart industrial environments (M2M). The main hardware components that form the technological base of IoT systems include (De Saulles, 2016):</p>
+<ul>
+<li><p><strong>Sensors:</strong> As a result of the massive adoption of smartphones, sensors that a few years ago were very expensive and only available to a few have drastically reduced their cost and their use has spread, thus facilitating the development of IoT systems. Sensors are not only hardware sensors or sensor networks, but also sensor software. All of them form a system capable of capturing conditions of interest in the real world, such as the presence of people. Most likely, sensors are going to be the main source of data in the future thanks to their high speed, lower power consumption, and high resolution. Common sensors include accelerometers, GPS chips, and cameras.</p></li>
+<li><p><strong>Smartphones:</strong> Smartphones can behave as sensors and controllers for IoT devices through mobile applications (e.g., smart watches and smart home applications).</p></li>
+<li><p><strong>Processing capacity and bandwidth:</strong> The deployment of 3G and 4G cellular networks in most of the developed world, as well as cheap broadband connections for businesses and homes with Wi-Fi capabilities, allow wireless connectivity capable of supporting IoT developments cheaply and ubiquitously.</p></li>
+<li><p><strong>Big Data infrastructure:</strong> Back-office infrastructures put into service by major players in the technology industry have been increasing in recent years. As a result, firms in all industries have powerful facilities at their disposal to store and process the vast amounts of data generated by IoT devices at low cost.</p></li>
+<li><p><strong>IPv6:</strong> The old IPv4 protocol, first implemented in 1983, had a limitation of 4.3 billion unique addresses. In a world in which some analysts (like IDC) predict more than 41 billion connected IoT devices by 2025, capable of generating 80 zettabytes of data, it was essential to develop a new protocol. The new IPv6 protocol provides 3.4 × 1038 addresses, an almost unimaginably large figure, and more than enough to cover IoT needs for decades to come.</p></li>
+</ul>
+<p>The integration of IoT with the cloud (CoT) is another vast source of opportunities.For example, it can help manage IoT resources and provide IoT services more cost effectively and efficiently. In addition, it can simplify the flow and processing of IoT data and facilitate faster installation and integration at a lower cost (Atlam et al., 2018). However, CoT is not straightforward and presents significant challenges for IoT applications that are time sensitive or where internet connectivity is poor and a traditional centralized cloud computing architecture is not possible. In cases like this, a more advanced cloud computing paradigm is needed to overcome latency and capacity limitations.</p>
+<p>One of these technologies was suggested by Cisco in 2014 and is known as Fog Computing. Transmitting massive amounts of raw data over a network to a centralized location places a heavy load on network resources. To make this process more efficient, it is possible to process the data close to its source and send only the data that has value to the remote data center. Fog Computing (similar in many ways to what is known as edge computing) processes data as close to the source as possible, so intelligence is transferred from the cloud to the edge. Time-sensitive data (e.g., for connected vehicles, video streaming, gaming, and virtual/augmented reality) is processed at its origin in the edge computing architecture, or sent to an intermediary server located close to the source. Meanwhile, less time-sensitive data is sent to the cloud for long-term storage or historical analysis (Attaran, 2017). With Fog Computing, IoT data processing and storage capabilities can be provided locally on IoT devices instead of being sent to the cloud, so the “fog” offers a higher quality and faster response service. Fog Computing is all in all a good technical solution that enables IoT to provide efficient and secure services for many IoT users.</p>
+</section>
+<section id="iot-software" class="level3" data-number="13.5.2">
+<h3 data-number="13.5.2" class="anchored" data-anchor-id="iot-software"><span class="header-section-number">13.5.2</span> IoT software</h3>
+<p>While the hardware is often the most visible part of an IoT system, especially when it comes to our homes or the devices people wear, the software running on the hardware is arguably even more important from a business perspective. Software within the context of IoT is not just limited to the software behind the “things” operating system but includes the applications that manage communications with other “things” and with hubs, the middleware that connects with other applications, and the software that supports data capture and analysis in the back-end (De Saulles, 2016).</p>
+<p>Much of the IoT software focuses on processing the data generated by the IoT (i.e., making sense of the data and improving business processes and decision-making). This often requires complex back-end systems to store and analyze the results. The software used for managing conventional databases is often not appropriate for the much larger data sets generated by the IoT. Database software solutions built around frameworks like Hadoop and NoSQL have proven capable of handling massive volumes of data at very high speeds. Other software vendors offer data warehousing and analytics solutions based on these technologies, including the Microsoft Azure platform, GE Predix platform, and Amazon Web Services (AWS). Once data from an IoT system has been captured and processed within one of these data platforms, analysis and visualization of the information is crucial if meaningful decisions are to be made. Vendors offering enhanced data visualization and reporting services include some of the established business intelligence players like SAP, SAS, Tableau, Splunk, or Qlik.</p>
+<p>Another key factor for the development of IoT systems is how to make them smarter. This involves uniting IoT with AI. AI can transform the IoT into an entity that works intelligently and behaves with decision-making capacity based on data and past events. By incorporating reasoning and decision-making capabilities into the IoT, the system can automate the management and control of IoT functions autonomously (e.g., self-configuration, self-protection, selforganization, self-healing, self-sufficiency, self-learning, self-adjusting), thus reducing the operating cost (Pramanik et al., 2018). What’s more, the IoT system can automatically train, learn, and fix future problems to a certain extent.</p>
+<p>Furthermore, a wide variety of communication technologies covering many domains of application and communication requirements have gradually emerged. Some technologies are domain-specific applications, such as Bluetooth Low Energy in personal area networks or Zigbee in home automation systems. Others, such as Wi-Fi, Low Power Wide Area Networks (LPWA), and cellular communications (such as 3GPP – 4G Machine Type Communications, or MTC) have a much broader reach. These niche solutions are often very dynamic, constantly evolving into new technologies or application domains. The advent of 5G communications means a potentially disruptive factor for IoT technologies. With the expected increase in data speed, lower end-to-end latency, and improved coverage over 4G, 5G is expected to meet the most demanding IoT applications in terms of communication requirements and number of connected devices. Furthermore, 5G may become a unified interconnection framework, facilitating seamless connectivity of “things” with the internet by integrating heterogeneous access technologies (Palattella et al., 2016).</p>
+</section>
+<section id="iot-communications" class="level3" data-number="13.5.3">
+<h3 data-number="13.5.3" class="anchored" data-anchor-id="iot-communications"><span class="header-section-number">13.5.3</span> IoT communications</h3>
+<p>IoT communication technologies include the connectivity technologies, standards, and protocols that connect the IoT to the internet. Connectivity is an essential element of any IoT system as it allows users to control “things” and makes data extractable and manageable remotely. Today there is no single communication protocol or standard that allows the exchange and integration of sensor data across devices, users, and domains (i.e., the data has a meaning that is independent of the device or format in which the information is used). This is because some devices require communication chips that consume very little power and only need to function over short distances, while others are less constrained in their power requirements and need to transmit data many miles away.</p>
+<p>The situation has led various technology companies, organizations, and consortiums to work on the development of standards that allow interoperability between devices and systems that are very heterogeneous. Some of them like Bluetooth, Wi-Fi, and GSM are standards already widely used. Others, such as WeMo, ZigBee, and Thread, are used by IoT device manufacturers but have failed to gain a foothold in the market. There are also communication standards, particularly in the 5G environment, that are still under discussion and development and have not been released yet. Finally, to achieve the ubiquitous connectivity that IoT applications require, many more features and functionalities will need to be added to the current broadband approach, which will require new developments, such as the heterogeneous networks (HetNet) approach that allows multiple types of wireless access nodes.</p>
+</section>
+</section>
+<section id="iot-applications" class="level2" data-number="13.6">
+<h2 data-number="13.6" class="anchored" data-anchor-id="iot-applications"><span class="header-section-number">13.6</span> IoT Applications</h2>
+<p>Although IoT is in its infancy, the number of applications is growing exponentially as more and more devices gain the ability to connect, opening new opportunities for innovation with smart products and services. Basically, IoT applications can be categorized into two types: consumer IoT and industrial IoT, each with different implications for underlying technologies and business models (Shim et al., 2019).</p>
+<section id="consumer-iot" class="level3" data-number="13.6.1">
+<h3 data-number="13.6.1" class="anchored" data-anchor-id="consumer-iot"><span class="header-section-number">13.6.1</span> Consumer IoT</h3>
+<p>Consumer IoT (cIoT) applications involve the interconnection of consumer devices and everyday “things” located in the users’ environment, be it the home (e.g., refrigerators, televisions, and appliances), the workplace, or even cities, aimed at improving people’s quality of life, saving time and money, and making decision-making easier. cIoT applications interconnect physical “things” through digital means of communication (wired or wireless) and allow them to exchange information with each other to help the user in their daily tasks or make intelligent decisions on their own. For example, in automated homes and buildings, the temperature and brightness of lights can be automatically adjusted according to the context and the presence of people in the room, thus improving people’s comfort. A thermostat in a room and the air conditioner are two “things” that can communicate with each other through IoT, in such a way that the thermostat exchanges the sensed temperature with the air conditioner so that it regulates the temperature.</p>
+<p>User acceptance of cIoT technologies and services depends on whether they find it useful and easy to use (Lu et al., 2018). Some studies have also found that fun and pleasure are additional factors influencing the acceptance of IoT technologies and that should be considered when designing IoT products and services. Price is another important factor. Many of the business models of IoT companies are based on subscription models in which users pay periodic fees for the value-added services that the products deliver. Therefore, as long as fee schemes do not share the customer’s logic and are difficult to understand, prices will continue to be a key conditioning factor that affects the rate of adoption by consumers.</p>
+<p>Additionally, emerging innovative technologies like IoT often come with risks. When these are known or perceived by users, they directly influence the intention to adopt the IoT. In addition to issues related to privacy and security, the intangibility and intensive use of different technologies in IoT systems often make users perceive higher risks, thus discouraging its adoption. Last but not least, there are the factors associated with social influence (i.e., when an individual believes that someone influential thinks he/she should be using the technology). Social influence is a more important factor than it seems at first glance and can significantly persuade users to adopt IoT. To address this challenge, firms’ business strategies should focus, for example, on offering financial incentives to lead users who recommend IoT products or services to others, as well as encouraging peer-to-peer promotion and diffusion of IoT.</p>
+</section>
+<section id="industrial-iot" class="level3" data-number="13.6.2">
+<h3 data-number="13.6.2" class="anchored" data-anchor-id="industrial-iot"><span class="header-section-number">13.6.2</span> Industrial IoT</h3>
+<p>Less visible to most users than the cIoT, IoT business and industrial applications (iIoT) have a far greater economic impact than consumer ones (De Saulles, 2016). Indeed, it can be said that iIoT technologies are the real driving force of the socalled Industry 4.0, in which industrial processes and machines become more intelligent and modular, providing greater flexibility to meet customers’ demands.</p>
+<p>The iIoT focuses on the integration between industrial technologies (i.e., production and delivery technologies) and ICT, so that the resulting IoT systems can monitor and collect data, and exchange and analyze information to intelligently change their behavior or reconfigure business processes. Some examples of iIoT are hotel process monitoring, vehicle fleet tracking, and beverage vending machine monitoring, control, and replenishment. iIoT has important implications for the management of organizations and their decision-making processes, as well as their ability to create new services and revenue streams. Today, iIoT applications are varied and can be found in all types of activities and industries, from public services, to transport and logistics, manufacturing, smart cities, smart buildings, industrial automation, and tourism, where they can improve the productivity and save costs through process optimization.</p>
+<p>By collecting and analyzing IoT-based Big Data with data analytics, firms can enhance their understanding of consumer behavior and decision-making, including predicting what is going to happen, all of which has relevant implications for marketing management, innovation, and the management of business strategies. This explains why tourism firms should start equipping themselves with infrastructures and new capacities that allow them to process and analyze the Big Data generated by the IoT (Jesse, 2018; Sestino et al., 2020).</p>
+<p>Both cIoT and iIoT applications share common features and have clear differences. For example, communications in cIoT are from machine to user (client–server type) and seek that the connected “things” have low energy consumption and are easy to install, integrate, and maintain. On the other hand, iIoT applications use machine-to-machine communications for automation and/or monitoring of control processes. Additionally, cIoT and iIoT specific communication requirements often differ in terms of reliability, quality of service (i.e., latency, throughput), and privacy protection (Palattella et al., 2016).</p>
+<div class="callout callout-style-default callout-note callout-titled" title="Marriott International IoT">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Marriott International IoT
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Marriott International has partnered with companies such as Samsung and Legrand to develop a smart hotel room. The project aims to improve the guest experience through more efficient room design and construction, thereby contributing to Marriott’s sustainability goals. Some of the expected benefits of the smart room include guest access to their own data and information, voice- and mobile-controlled systems, and enhanced personalized service. The project features various IoT systems, devices, and applications for device-to-device communications. Samsung develops end-to-end IoT services from intuitive lighting to voice-activated room controls powered by the ARTIK platform and SmartThings Cloud. Legrand offers a suite of power, light, and data solutions that bring power and connectivity to previously untapped locations. Marriott has well-established private data centers that extend into the public cloud and more than 20,000 devices are equipped with enterprise mobility management software that ensures its mobile workforce can reliably serve customers anytime, anywhere. IoT-enabled building management, room management, energy management, and lighting control software and hardware reduce the environmental footprint of water/carbon/food waste and contribute to the general goal of reducing the environmental footprint.</p>
+<p>Source: Source: Own elaboration based on Lee (2019)</p>
+</div>
+</div>
+</section>
+</section>
+<section id="challenges-of-iot" class="level2" data-number="13.7">
+<h2 data-number="13.7" class="anchored" data-anchor-id="challenges-of-iot"><span class="header-section-number">13.7</span> Challenges of IoT</h2>
+<p>Before the IoT can reach the levels of adoption seen with other technologies, there are a number of significant barriers and challenges that need to be resolved, and they are not just technical. As ICTs become more and more integrated into our daily lives, at work and at home, so do the challenges and potential adverse consequences, such as theft of sensitive personal data from devices, or hacking of IoT systems in industrial settings to take control of power supply systems. The controversial “always on and listening” IoT encompasses a growing range of devices. Google’s “Ok Google” search command for smartphones and PCs, Apple’s Siri, and Amazon’s Alexa are examples of how tech companies are trying to make their digital assistants a natural part of our daily lives. As machine learning and voice recognition improve, they will become even more integrated into our homes and the amount of data that can be coveted by criminals will grow.</p>
+<p>Due to the rapid growth of the IoT industry, the demand for professionals with the necessary skills to create IoT-enabled devices and manage the layers that make up the IoT architecture has increased exponentially. Firms need staff with high-level technical skills in today’s programming languages who also understand the business environment and infrastructure in which IoT devices operate. Software developers are always in high demand, but the growth of IoT will increase that demand even more.</p>
+<p>In many ways, these challenges are nothing new. In fact, we have seen similar challenges arise in the life cycle of other technologies, such as when the internet or personal computing began to grow. However, it is the sheer scale of what the IoT promises that raises concerns among consumers, firms, developers, and regulators. Below are some of the main challenges affecting IoT adoption, including IoT Big Data, privacy and trust, security, regulation, and business models.</p>
+<section id="iot-big-data" class="level3" data-number="13.7.1">
+<h3 data-number="13.7.1" class="anchored" data-anchor-id="iot-big-data"><span class="header-section-number">13.7.1</span> IoT Big Data</h3>
+<p>IoT systems generate a large amount of data that comes from highly dispersed and heterogeneous sources. For firms this means a great challenge, since they must deal with a large variety and noise in the data. Added to this is the fact that conventional data mining algorithms are not ready for Big Data, therefore the problem of how to modify them to operate in a Big Data environment arises. In this challenging context, it is especially important that firms develop a Big Data mining framework that is efficient and effective for exchanging data between different applications and systems, and that guarantees data security and privacy.</p>
+</section>
+<section id="privacy-and-trust" class="level3" data-number="13.7.2">
+<h3 data-number="13.7.2" class="anchored" data-anchor-id="privacy-and-trust"><span class="header-section-number">13.7.2</span> Privacy and trust</h3>
+<p>People are increasingly concerned about how firms use their personal data. Despite the many applications and benefits that IoT can have in everyday life, if privacy concerns become too great, consumers may lose their willingness to interact with IoT platforms and business opportunities will not arise. This situation becomes even worse when we think about the dispersed nature of the IoT and location-based or geo-referencing tools. Personal data has become a new “asset class” that can create value for individuals, firms, and society. As the volume of data grows, firms must take steps to encourage the kind of trust that fosters privacy, increasing the transparency with which personal data is used and balancing business interests with user privacy concerns (Sestino et al., 2020).</p>
+<p>Blockchain technology can help overcome some of these obstacles by providing a solution for authenticating the identity of nodes in an IoT network and verifying that only authorized nodes can access data, thus maintaining data privacy and access control (Shim et al., 2019). IoT devices could send data to a blockchain-based database that would only allow authorized parties to access and contribute data without the need for centralized control and management. Eventually, the combination of IoT with blockchain can reduce the privacy and security risks of IoT data and turn it into a trusted source of valuable data. These benefits could also be extended to the management of payments in the form of micropayments that would help monetize data from IoT networks. For example, hotels could send information about the flow and characteristics of visitors to visitor control centers, then this data could be traded (or auctioned) on Big Data marketplaces to facilitate analysis, marketing, and market research as value-added services. In summary, the convergence of IoT and blockchain is at a very early stage and still offers numerous technical challenges given the immature state of these technologies and the speed at which they evolve, however it is worth keeping an eye out for further developments.</p>
+<p>Ultimately, firms are expected to develop new trust models especially focused on 5G scenarios where there will be a huge number of different devices connected, each with its own security scheme. This will raise new expanded requirements for authentication and protection of personal data between different actors that will reinforce those currently used for 4G. Furthermore, firms will be required to develop new ethical practices in the handling of personal data that involve users in the process. These practices will be critical for people to gain a high level of confidence in using IoT, and include issues such as data ownership, accessibility, and accuracy. At the same time, it is to be expected that as people get used to new IoT environments and realize its benefits, some privacy concerns will diminish and people will gradually become more willing to share their personal data.</p>
+</section>
+<section id="security" class="level3" data-number="13.7.3">
+<h3 data-number="13.7.3" class="anchored" data-anchor-id="security"><span class="header-section-number">13.7.3</span> Security</h3>
+<p>Wherever a technology can be used to exploit a weakness in a system for profit, it is inevitable that someone will take advantage of it. In other words, if a system can be hacked, it will be hacked. Being aware of this maxim, security has become a primary concern for firms focusing on adopting IoT. IoT technologies open the doors of firm systems and data to everyone and increases security threats. Leakage of personal data through illegal hacking has become commonplace, and until reliable and secure systems are in place, many people will be reluctant to share their data with third parties. Interestingly, it often happens that firms that have been hacked never know, or underestimate, the scope of such illegal attacks. In 2012, it was thought that 6.5 million passwords from the LinkedIn social network had been stolen. However, it was only in 2016 that the company revealed that more than 117 million passwords had been taken and that this data was being sold on the internet.</p>
+<p>IoT-enabled devices are vulnerable to hacking, and it is feared that they are an opportunity for hackers to steal data and harm people. These risks are further heightened as there is no government regulation of IoT and no organized effort by manufacturers to make these devices more secure. In addition, as firms increase their use of AI, machine learning, and increasingly sophisticated algorithms to give their products and services a competitive edge, the amount of personal and sensitive data circulating on the internet will increase. So, what can firms do to ensure that people’s personal information is secure? Incorporating strong security at all levels of IoT is crucial to preventing fraud and building the necessary trust among users for mass adoption. It is the responsibility of owners and managers to implement methods to protect information in business systems and in interactions with customers. It is also essential that security is built into products and services at an early design stage and not as an afterthought. IoT vendors have addressed some of these security challenges by testing a variety of query protocols, jamming, and other techniques (Attaran, 2017). The Federal Trade Commission of the United States of America also makes these recommendations to firms that want to take their first steps in the IoT (FTC, 2015).</p>
+<ol type="1">
+<li><p>Conduct a privacy and security risk assessment.</p></li>
+<li><p>Minimize the data collected and retained from IoT initiatives.</p></li>
+<li><p>Rigorously test IoT products before launching them on the market.</p></li>
+</ol>
+<p>Any firm developing IoT products should seek to maximize the strength of its security strategy. This means thinking about security from the customer’s perspective (i.e., in terms of what the solution will do, who it will report to, and how data will be protected), as well as applying a multi-layered approach that incorporates identity, access, encryption, and network security and monitoring. It is also important for firms to set up the controls that will govern the management of the IoT system throughout its life cycle, how issues will be resolved, and when the system will be retired and upgraded.</p>
+<p>There is no doubt that security is more of an issue in some scenarios than others. Hacking someone’s smart thermostat and turning off their home heating can be inconvenient, but taking control of a self-driving car and crashing it on purpose is something quite different. Another concern with IoT security is the number of new firms entering IoT with no security background. For example, a small business that has amassed experience designing and marketing tours of historic places probably doesn’t have the knowledge or skills to create products that can resist hackers. Therefore, new technologies and methodologies must be developed that meet the highest requirements in terms of reliability security, and privacy, and that can be adapted to the particular needs and capabilities of tourism firms.</p>
+</section>
+<section id="regulation" class="level3" data-number="13.7.4">
+<h3 data-number="13.7.4" class="anchored" data-anchor-id="regulation"><span class="header-section-number">13.7.4</span> Regulation</h3>
+<p>A prerequisite for IoT to become a practical reality is building trust among users. As with other ICTs, regulators play an important role in establishing legal frameworks that allow firms to operate with confidence and deliver trust to users. In some cases, new regulations are going to be required that take into account the new challenges posed by the IoT; in other cases, the existing regulations may be sufficient or simply require an update.</p>
+<p>Today most IoT regulatory frameworks are still very vague or non-existent. There are also clear differences in regulations concerning personal data between the two world leaders in this subject: the US and Europe. In 2016, the European Commission adopted the General Data Protection Regulation (GDPR), which included some modifications related to data portability and the “right to be forgotten” that recognized how much technology had evolved since the 1990s. The European regulation states that when data is kept in a “structured and commonly used format”, individuals have the right to request that it is transferred to another service provider. Meanwhile, the United States has a more fragmented approach with a series of specific federal and state laws, each addressing different aspects of personal data. This reflects the importance of state legislation in the United States, but perhaps a more relaxed attitude among many US citizens regarding how organizations use their personal data. The lack of regulatory consistency between Europe and the United States with respect to data protection has also been a source of friction with some EU member states due to the restrictions placed on firms operating in these countries and the extent to which they may move personal data outside the European Union. The data protection directive and the GDPR allow the movement of data to firms in the United States as long as they are subject to the same data protection treatment that they have in Europe. Furthermore, IoT has also become the topic of power politics due to the risks of war and cybercrime.</p>
+<p>Although there is no clear consensus on how to legislate on privacy, privacy protection policies should guarantee a series of key principles, including data anonymity; notification to users when information leaks and privacy violations occur; that the data collected is treated with the sole purpose of providing services; transparency in data collection; and accountability of data collectors (Lu et al., 2018). Especially challenging is the massive collection of data in the IoT. Soon it will be almost impossible for a person to avoid being monitored and recorded by sensors in public spaces. What’s more, once this information is generated, it may be retained indefinitely, and its disclosure may not be controlled on a personal level. Therefore, when designing IoT applications, information protection becomes critical as it directly affects the user experience and trust in IoT services. The implementation of functions such as “forget me” by service providers, which allow user information to be deleted on request, may be a possible solution to this problem.</p>
+<p>In the same vein, there is the issue of security in access to personal data and the problems with organized crime and cyberterrorism. Due to its connected nature, the IoT generates a large amount of data that is collected and transferred between the virtual and physical worlds, and this can be a never-ending source of security problems. Some studies suggest that 70% of IoT devices are vulnerable due to lack of encryption, inadequate software protection, insecure web interface insecurity, and insufficient authorization levels. Furthermore, security threats appear at every layer of the IoT architecture making it even more difficult to analyze security issues, such as phishing and routing attacks, viruses, trojans, and spam messages in data transmission, to name just a few. In the end, solutions to IoT security issues need to involve multiple stakeholders, making it clear who is responsible when a system fails or is attacked by cybercriminals. Improved accountability in IoT (i.e., the obligation of each person responsible for the layers of the IoT system to explain and justify their actions and decisions to users), reinforces security and confirms the need for a stable legal framework for all firms.</p>
+</section>
+<section id="business-models" class="level3" data-number="13.7.5">
+<h3 data-number="13.7.5" class="anchored" data-anchor-id="business-models"><span class="header-section-number">13.7.5</span> Business models</h3>
+<p>The IoT can impact the business models of tourism firms, both by transforming traditional business models and creating superior value, and by leveraging new business models based on new competitive advantages. IoT-based business models can help improve knowledge sharing by providing firms with a wealth of contextual information about their customers and product/service usage patterns. This abundant knowledge is highly valuable in business terms to increase the innovation capacity of organizations and create new value (i.e., facilitate the decision-making and marketing process, engage the consumer, set prices, etc.). IoT provides opportunities for tourism firms to design new strategies, optimize their business process flows, and offer personalized products/ services to customers (Lu et al., 2018). In short, IoT-based business models can improve the firm’s competitiveness by better satisfying its customers in the product/service delivery process.</p>
+<p>Two new but powerful IoT-specific business models have recently emerged: 1) digitally loaded products, and 2) Sensor as a Service (Fleisch et al., 2015). The idea of digitally charged products is that classic physical products are loaded with a package of new digital services based on sensors, so that they acquire more relevance based on new value propositions. One usual approach to this business model is the physical freemium model, which refers to a physical product that is sold at a very small margin together with a free digital service (i.e., a product that is sold with some digital instructions for installation, operation, and maintenance). Over time, customers can activate (purchase) more digital services based on their needs, thus delivering higher margins to providers. Physical products can become a kind of repository for electronic services as they can embed digital advertising, accrue and redeem loyalty points, and record what is happening around it through a smartphone. For example, the Amazon app already offers features like these for products with an Amazon barcode.</p>
+<p>The Sensor as a Service model provides the ability to collect, process, and sell sensor data for a price. This model is based on the idea that measured data from the physical world no longer needs to be vertically integrated into a single application, but can be integrated into a wide range of applications. Unlike the digitally uploaded product business model, the focus here is not the product that generates data or the resulting services, but the data itself. An example of this business model is Streetline (http://www.streetline.com), which installs sensors in municipal and private spaces to detect free parking spaces and then sells the collected data to interested third parties.</p>
+<p>A drawback when developing IoT-based business models is that for each IoT-based service, several different parties must cooperate (and thus receive benefits) to support the technology and standards that the service requires (Shim et al., 2019). As IoT devices become cheaper and their complementary software services mature, new applications and business models will emerge based on the data they generate.</p>
+</section>
+</section>
+<section id="discussion-questions" class="level2" data-number="13.8">
+<h2 data-number="13.8" class="anchored" data-anchor-id="discussion-questions"><span class="header-section-number">13.8</span> Discussion Questions</h2>
+<ul>
+<li><p>What type of IoT products and services have the greatest potential for the tourism consumer-oriented market (B2C)? And for the business-to-business (B2B) market?</p></li>
+<li><p>What relationship is there between the development of IoT, Big Data, and AI technologies? Is it realistic to foresee an integration of these technologies in the future?</p></li>
+<li><p>What factors related to privacy, security, and regulatory issues are most influencing the development of IoT in the market?</p></li>
+<li><p>What factors may be having an impact on the adoption of IoT-based technologies and services by the end consumer? And by firms?</p></li>
+<li><p>What professional profiles are most needed by tourism firms to benefit from the IoT? Does the tourism firm have them?</p></li>
+<li><p>What management practices should the tourism firm implement to accelerate the adoption of IoT technologies in the organization?</p></li>
+<li><p>What role does business leadership play in the adoption of IoT technologies in tourism firms?</p></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./12_ai.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Artificial Intelligence</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./14_cybersecurity.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Cybersecurity</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+</body></html>
