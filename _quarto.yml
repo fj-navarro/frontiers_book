@@ -19,6 +19,7 @@ book:
   #sidebar:
     #style: docked
     #background: light
+  google-analytics: G-5WWE86J7RQ
   
   chapters:
     - index.qmd
