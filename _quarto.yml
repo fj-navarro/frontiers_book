@@ -12,7 +12,7 @@ book:
   #search: true
   twitter-card: true
   site-url: https://managingtourism.netlify.app
-  repo-url: https://github.com/fj-navarro/frontiers_book
+  repo-url: https://github.com/fj-navarro/managing_book
   repo-actions: [edit, issue]
   #downloads: [pdf, epub]
   sharing: [twitter, facebook]
